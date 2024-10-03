@@ -73,13 +73,50 @@
 
 
 .section_two{
-    @apply py-[2rem] px-[1rem] w-full
+    @apply py-[2rem] px-[1rem] xl:py-[5rem] w-full
+}
+
+.section_two > h1{
+    @apply font-montserrat text-[20px] font-[700] slg:text-[30px] my-10
+}
+
+.section_two_inner{
+    @apply xl:w-[80%] mx-auto
 }
 
 .banner_cover{
-    @apply relative w-[200px] h-[200px] rounded-[15px]
+    @apply relative w-[200px] h-[200px] rounded-[15px] slg:w-[50%]
+}
+
+.content{
+    @apply slg:flex gap-4
+}
+
+.content > p{
+    @apply w-[50%] text-[16] font-jost font-[400]
 }
 
 .banner{
     @apply w-full h-full object-fill rounded-[15px]
+}
+
+.card_image{
+    @apply object-fill aspect-video object-top w-full h-full rounded-t-[15px]
+}
+
+.card_image_cover{
+    @apply relative w-full h-[200px] rounded-t-[15px]
+}
+
+
+.card{
+    @apply w-[250px]  drop-shadow-lg my-[2rem] bg-white pb-[2rem] rounded-[15px]
+}
+
+.card_details > h1{
+    @apply text-[20px] font-montserrat font-[600] text-center my-2
+}
+
+.card_details > p{
+    @apply text-[16] font-jost font-[500] text-center my-2 text-center
 }
