@@ -73,5 +73,13 @@
 
 
 .section_two{
-    @apply py-[2rem] px-[1rem]
+    @apply py-[2rem] px-[1rem] w-full
+}
+
+.banner_cover{
+    @apply relative w-full max-h-[400px]
+}
+
+.banner{
+    @apply w-full h-full object-fill
 }

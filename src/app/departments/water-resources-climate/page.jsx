@@ -32,8 +32,8 @@ export default function Department(){
                 <h1>WATER RESOURCES AND CLIMATE</h1>
                 <div className={styles.content}>
                     <p>The earth is the only planet that appears blue in color, also nicknamed the blue planet because 95%of it is covered by water. The department is so named because the interaction of water and climate has its complexity on the earth. Water sometimes brings destruction and sometimes where needed is scarce. Global warming has also affected weather of different parts of the earth. Research into the phenomenon of both interactions is invaluable to human existence.</p>
-                    <div>
-                        <Image src='/images/img-20.jpg' alt='image' fill/>
+                    <div className={styles.banner_cover}>
+                        <Image src='/images/img-20.jpg' alt='image' className={styles.banner} fill/>
                     </div>
                 </div>
             </section>

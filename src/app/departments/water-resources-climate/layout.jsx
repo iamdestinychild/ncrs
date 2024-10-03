@@ -1,7 +1,7 @@
 
 
 export const metadata = {
-    title: "Administrative & Finance",
+    title: "Water Recources & Climate",
     description: "",
   };
 
