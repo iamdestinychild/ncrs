@@ -1,4 +1,4 @@
-import { ListTag } from "@/componets/IconsPalette"
+import { ListTag } from "../../components/IconsPalette"
 import Link from "next/link"
 import styles from "./styles.module.css"
 

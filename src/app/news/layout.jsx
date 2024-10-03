@@ -1,6 +1,4 @@
-export default function NewsLayout({children}:Readonly<{
-    children: React.ReactNode;
-}>){
+export default function NewsLayout({children}){
     return(
         <div>
             {children}

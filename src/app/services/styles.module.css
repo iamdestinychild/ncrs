@@ -1,26 +1,116 @@
-/* services */
-
-.services{
-    @apply hidden xlg:block bg-[#1C5237] px-[2rem] py-[8rem] text-[#FFFF]
+.hero{
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] relative
 }
 
-.services_cover{
-    @apply 2xl:w-[90%] mx-auto
+.hero_layer{
+    @apply h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] w-full absolute bg-[#0A0A0ABA]
 }
 
-.services_line{
-    @apply block bg-[#FFFF] w-[375px] h-[2px]
+.hero_content{
+    @apply w-full slg:w-[85%] 2xl:w-[60%] absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
 }
 
-.services_heading{
-    @apply mt-10 text-[36px] font-[600]
+.heading_one{
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
 }
 
-.service{
-    @apply grid grid-cols-4 mt-10 gap-[4rem]
+.heading_one > span{
+    @apply text-[#E85555]
 }
 
-.service > p{
-    @apply font-[500] text-[24px] xl:text-[20px]
+.heading_two{
+    @apply text-[#FFF9F9] text-[17px] my-[0.5rem] slg:text-[22px] font-[600]
 }
 
+.hero_title_page{
+    @apply w-full
+}
+
+.title_cover{
+    @apply w-full bg-[#FFF] py-[0.5rem] pl-[0.5rem]
+}
+
+.title{
+    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+}
+
+.page_cover{
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+}
+
+.page{
+    @apply text-[36px] slg:text-[64px] font-[700] text-[#FFF]
+}
+
+
+.section_two{
+    @apply bg-white
+}
+
+.section_two_content_one_container{
+    @apply py-[2rem] px-[1rem] slg:w-[90%] xl:w-[70%] slg:mx-auto
+}
+
+.section_two_sub_one{
+    @apply my-[1rem]
+}
+
+.section_two_sub_one > h1{
+    @apply text-[23px] slg:text-[40px] font-[500] slg:font-[600] leading-normal mb-[0.5rem]
+}
+
+.section_two_sub_one > p{
+    @apply text-[16px] slg:text-[18px] font-[500] leading-normal text-[#2B5476]
+}
+
+.section_two_sub_two{
+    @apply my-[1rem]
+}
+
+.section_two_sub_two > h1{
+    @apply text-[23px] slg:text-[28px] font-[500] mb-[0.5rem]
+}
+
+.section_two_sub_two > ul{
+    @apply list-disc px-[1.2rem]
+}
+
+.section_two_sub_two > ul > li{
+    @apply text-[16px] slg:text-[18px] font-[500] leading-normal text-[#2B5476] my-[0.5rem]
+}
+
+.section_two_content_two{
+    @apply bg-[#1C5237]
+}
+
+.section_two_content_two_container{
+    @apply px-[1rem] py-[2rem] slg:w-[90%] xl:w-[70%] slg:mx-auto
+}
+
+.section_two_content_two_container > h1{
+    @apply text-[23px] slg:text-[40px] font-[500] leading-normal text-white text-center slg:text-left
+}
+
+.section_two_content_two_container > ul{
+    @apply list-disc px-[1.2rem]
+}
+
+.section_two_content_two_container > ul > li{
+    @apply text-white my-[0.5rem] text-[16px] slg:text-[18px]
+}
+
+.section_two_content_three{
+    @apply bg-[#000000] 
+}
+
+.section_two_content_three_container{
+    @apply slg:w-[90%] xl:w-[70%] slg:mx-auto px-[1rem] py-[2rem]
+}
+
+.section_two_content_three_container > h1{
+    @apply text-[23px] slg:text-[40px] slg:text-left font-[500] text-white text-center
+}
+
+.section_two_content_three_container > p{
+    @apply text-[16px] slg:text-[18px] font-[500] my-[0.5rem] leading-normal text-white
+}

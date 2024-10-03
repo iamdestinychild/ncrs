@@ -1,6 +1,4 @@
-export default function DepartmentLayout({children}:Readonly<{
-    children: React.ReactNode;
-}>){
+export default function DepartmentLayout({children}){
     return(
         <div>
             {children}

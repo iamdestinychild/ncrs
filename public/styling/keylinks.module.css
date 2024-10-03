@@ -37,3 +37,7 @@
 .icon {
   @apply size-14 text-primary;
 }
+
+.slick-slide > .keylink_slider{
+  @apply mx-2
+}

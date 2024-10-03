@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import styles from './styles.module.css'
 import Image from 'next/image'
-import { RightArrow } from '@/componets/IconsPalette'
-import BlogPostSlide from '@/componets/BlogPostSlide'
-import NewsLetter from '@/componets/newsletter/NewsLetter'
-import BlogCard from '@/componets/blogCard/BlogCard'
+import { RightArrow } from '../../components/IconsPalette'
+import BlogPostSlide from '../../components/blogSlide/BlogSlide'
+import NewsLetter from '../../components/newsletter/NewsLetter'
+import BlogCard from '../../components/blogCard/BlogCard'
 import {allPosts} from '../../../data'
 
 export default function News(){
