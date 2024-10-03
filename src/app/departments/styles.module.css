@@ -1,5 +1,5 @@
 .department{
-    @apply slg:hidden
+
 }
 
 .hero{
@@ -69,4 +69,13 @@
 
 .department_section_one_link_icon{
     @apply size-6 text-[#FFFF]
+}
+
+
+.section_two{
+
+}
+
+.section_two_inner{
+    
 }

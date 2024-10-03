@@ -93,25 +93,25 @@
 }
 
 .section_three_cards{
-    @apply w-full grid grid-cols-2 slg:grid-cols-3 xlg-max:grid-cols-4 xl:grid-cols-4 gap-x-5
+    @apply w-full grid grid-cols-1 slg:grid-cols-2 xlg-min:grid-cols-3 xlg-max:grid-cols-4 xl:grid-cols-4 gap-x-5
 }
 .section_three_card{
-    @apply w-full h-[230px] my-[2rem]
+    @apply w-full h-[230px] my-[2rem] relative rounded-[5px]
 }
 .section_three_card_banner_cover{
-    @apply relative h-full w-full
+    @apply absolute h-full w-full rounded-[5px]
 }
 
 .section_three_card_banner{
-    @apply w-full h-full object-fill
+    @apply w-full h-full object-fill rounded-[5px]
 }
 
 .section_three_card_heading_cover{
-    @apply bg-[#CE0C0C] text-center py-[0.5rem]
+    @apply h-full grid place-content-center text-center py-[0.5rem] relative
 }
 
 .section_three_card_heading{
-    @apply text-[16px] font-[700] text-[#FFF]
+    @apply text-[20px] font-[700] font-jost text-[#FFF]
 }
 
 .section_four{

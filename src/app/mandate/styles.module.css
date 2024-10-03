@@ -49,67 +49,26 @@
   @apply slg:w-[90%] xl:w-[95%] 2xl:w-[80%] font-jost  mx-auto;
 }
 
-.section_two_content_cover {
-  @apply flex flex-col slg:flex-col-reverse xlg-max:flex-row xl:flex-row justify-between items-center 2xl:items-start gap-x-5 mt-[2rem];
+.section_two_container > h1{
+  @apply font-montserrat font-[700] text-[16px] slg:text-[30px]
 }
 
-.section_two_content {
-  @apply w-full slg:w-full xl:w-[50%] 2xl:w-[40%];
+.section_two_container > p{
+  @apply font-jost font-[500] text-[16px] 
 }
 
-.section_two_content_line {
-  @apply w-[117px] h-[3px] bg-[#000] mb-5;
+.contents{
+  @apply grid grid-cols-1 gap-5 slg:grid-cols-2 my-3
 }
 
-.section_two_container > h1 {
-  @apply text-[36px] slg:text-[46px] font-[700] font-montserrat;
+.content{
+  @apply flex items-start
 }
 
-.section_two_content > article > p {
-  @apply text-[16px]  font-[500] text-[#666C89] my-[1rem] font-jost;
+.content > p{
+  @apply  font-jost font-[16px] slg:font-[20px]
 }
 
-.section_two_content > article > ul {
-  @apply list-disc px-[1rem];
-}
-
-.section_two_content > article > ul > li {
-  @apply text-[16px]  font-[500] text-[#666C89] my-[1rem] font-jost;
-}
-
-.section_two_banner_cover {
-  @apply relative w-[474px] slg:w-full xl:w-[50%] 2xl:w-[40%] slg:h-[453px] h-[563px] xlg-max:h-[423px] xl:h-[400px] 2xl:h-[400px]
-    rounded-[15px] slg:block;
-}
-
-.section_two_banner {
-  @apply w-full h-full object-fill rounded-[15px];
-}
-
-.section_three {
-  @apply bg-[#1C5237]  xlg-max:h-[110vh] xl:h-[80vh] 2xl:h-[80vh];
-}
-
-.section_three_container {
-  @apply w-full h-full xlg-max:flex xl:flex justify-between items-center;
-}
-
-.section_three_text {
-  @apply font-jost py-[3rem] px-[2rem] slg:px-[3rem] xl:px-[5rem] xlg-max:w-[60%] xl:w-[60%] 2xl:w-[50%] leading-normal;
-}
-
-.section_three_text > ul {
-  @apply list-disc;
-}
-
-.section_three_text > ul > li {
-  @apply text-[#FFFFFF] font-jost text-[16px]  my-[5px] 2xl:my-[15px] font-jost;
-}
-
-.section_three_banner_cover {
-  @apply relative hidden xlg-max:block xl:block xlg-max:w-[40%] xl:w-[40%] h-full;
-}
-
-.section_three_banner {
-  @apply w-full h-full object-fill;
-}
+/* .icon{
+  @apply size-5
+} */

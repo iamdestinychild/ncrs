@@ -7,7 +7,6 @@ import WebDepartment from '../../components/webDepartment/webdepartment'
 
 export default function Department(){
     return(
-        <>
         <main className={styles.department}>
         <section className={styles.hero}>
                 <div className={styles.hero_layer}></div>
@@ -24,53 +23,32 @@ export default function Department(){
                     </div>
                 </div>
             </section>
-            <section className={styles.department_section_one}>
-                <h1>Department of Finance & Administrations</h1>
-                <p>The department headed by a Deputy Director is subdivided into two sections, namely; General Administration and Finance Sections. The General Administration Section is further subdivided into units for efficient functioning. There are six Units headed by the Chief Administrative/Executive Officer who supervises the activities and staff in each of the units.</p>
-                <Link className={styles.department_section_one_link} href="#">
-                    <p>Learn More</p>
-                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
-                </Link>
-            </section>
-
-            <section className={styles.department_section_one}>
-                <h1>Strategic Planning Department</h1>
-                <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
-                <Link className={styles.department_section_one_link} href="/administration">
-                    <p>Learn More</p>
-                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
-                </Link>
-            </section>
-
-            <section className={styles.department_section_one}>
-                <h1>Strategic Planning Department</h1>
-                <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
-                <Link className={styles.department_section_one_link} href="/planning">
-                    <p>Learn More</p>
-                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
-                </Link>
-            </section>
-
-            <section className={styles.department_section_one}>
-                <h1>Strategic Planning Department</h1>
-                <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
-                <Link className={styles.department_section_one_link} href="#">
-                    <p>Learn More</p>
-                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
-                </Link>
-            </section>
-
-            <section className={styles.department_section_one}>
-                <h1>Strategic Planning Department</h1>
-                <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
-                <Link className={styles.department_section_one_link} href="#">
-                    <p>Learn More</p>
-                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
-                </Link>
+            <section className={styles.section_two}>
+                <div className={styles.section_two_inner}>
+                    <h1>Departments</h1>
+                    <div>
+                        <div>
+                            <h1>Water resources & Climate</h1>
+                        </div>
+                        <div>
+                            <h1>Ground Receiving Station</h1>
+                        </div>
+                        <div>
+                            <h1>Procurement</h1>
+                        </div>
+                        <div>
+                            <h1>Policy, Planning and Research (PPR)</h1>
+                        </div>
+                        <div>
+                            <h1>ICT</h1>
+                        </div>
+                        <div>
+                            <h1>Geosciences</h1>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
-        <WebDepartment/>
-        </>
     )
 }
 
