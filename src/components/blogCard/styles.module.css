@@ -3,11 +3,11 @@
 } */
 
 .blog_post_slide_card{
-    @apply  max-w-[400px] mb-[20px] flex-[0_0_auto] 2xl:px-[1rem]
+    @apply min-w-[250px] max-w-[400px] mb-[20px] flex-[0_0_auto] 2xl:px-[1rem]
 }
 
 .blog_post_slide_card_banner_cover{
-    @apply relative w-full h-[231px] slg:h-[226px] rounded-[15px]
+    @apply relative w-full h-[231px] rounded-[15px]
 }
 
 .blog_post_slide_card_banner{

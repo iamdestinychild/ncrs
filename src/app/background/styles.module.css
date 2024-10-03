@@ -11,7 +11,7 @@
 }
 
 .heading_one{
-    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400] font-montserrat
 }
 
 .heading_one > span{
@@ -39,7 +39,7 @@
 }
 
 .page{
-    @apply text-[30px] slg:text-[64px] font-[700] text-[#FFF]
+    @apply text-[30px] slg:text-[40px] font-[700] text-[#FFF]
 }
 
 .section_two{

@@ -13,31 +13,31 @@ export default function Whatwedo() {
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Satellite Data Services</p>
+            <p>Natural Resource Mapping</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Satellite Data Services</p>
+            <p>Forestry and Environment</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Satellite Data Services</p>
+            <p>Cadastral Mapping</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Satellite Data Services</p>
+            <p>Water Resources</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Satellite Data Services</p>
+            <p>Urban and Rural Planning and Development</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Satellite Data Services</p>
+            <p>Disaster Management</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Satellite Data Services</p>
+            <p>Ecological & Climate Studies</p>
           </div>
         </div>
         <div className={styles.learn_more_container}>

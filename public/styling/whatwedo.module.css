@@ -7,7 +7,7 @@
 }
 
 .whatwedo_inner{
-    @apply  slg:w-[80%] mx-auto my-[3rem]
+    @apply  slg:w-[90%] mx-auto my-[3rem]
 }
 
 .whatwedo_content_container{
@@ -27,5 +27,5 @@
 }
 
 .learnMore{
-    @apply inline-block min-w-[4rem] mx-auto text-primary bg-white text-center py-2 px-[2rem] my-[2rem] text-[16px] 
+    @apply inline-block min-w-[4rem] mx-auto text-primary bg-white text-center rounded-[5px] py-4 px-[2rem] mt-[4rem] text-[20px] font-[600] 
 }

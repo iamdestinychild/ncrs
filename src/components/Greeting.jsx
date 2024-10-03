@@ -7,7 +7,7 @@ export default function Greeting() {
         <div className={styles.greeting}>
             <div className={styles.greeting_inner}>
                 <div className={styles.img_cover}>
-                    <Image src='/images/director.jpg' alt="National Center For Remote Sensing" className={styles.img} fill/>
+                    <Image src='/images/director-2.png' alt="National Center For Remote Sensing" className={styles.img} fill/>
                 </div>
                 <div className={styles.content}>
                     <h1 className={styles.content_heading}>From the Desk of the Director/CE</h1>

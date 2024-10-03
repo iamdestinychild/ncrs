@@ -8,7 +8,7 @@
 }
 
 .img_cover{
-    @apply relative w-full h-[30vh] slg:h-[50vh] xlg:w-[40%] xlg:h-[38vh] xlg-max:h-[85vh] 
+    @apply relative w-full max-h-[50hv] slg:h-[50vh] xlg:w-[40%]  
     xl:h-[70vh] rounded-t-[25px] xlg:rounded-tl-[25px] xlg:rounded-bl-[25px]
 }
 
@@ -41,5 +41,5 @@
 }
 
 .learn_more{
-    @apply text-white bg-primary text-base py-[1rem] px-[2rem] inline-block
+    @apply text-white bg-primary text-base py-[1rem] px-[2rem] font-[600] inline-block rounded-[5px]
 }

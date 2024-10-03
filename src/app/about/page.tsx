@@ -43,7 +43,7 @@ export default function about(){
                 <div className={styles.section_three_cards}>
                     <div className={styles.section_three_card}>
                         <div className={styles.section_three_card_banner_cover}>
-                            <Image src='/img/img-03.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
+                            <Image src='/images/img-03.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
                         </div>
                         <div className={styles.section_three_card_heading_cover}>
                         <p className={styles.section_three_card_heading}>Professionalism</p>
@@ -52,7 +52,7 @@ export default function about(){
 
                     <div className={styles.section_three_card}>
                         <div className={styles.section_three_card_banner_cover}>
-                            <Image src='/img/img-04.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
+                            <Image src='/images/img-04.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
                         </div>
                         <div className={styles.section_three_card_heading_cover}>
                         <p className={styles.section_three_card_heading}>Integrity</p>
@@ -61,7 +61,7 @@ export default function about(){
 
                     <div className={styles.section_three_card}>
                         <div className={styles.section_three_card_banner_cover}>
-                            <Image src='/img/img-05.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
+                            <Image src='/images/img-05.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
                         </div>
                         <div className={styles.section_three_card_heading_cover}>
                         <p className={styles.section_three_card_heading}>TeamWork</p>
@@ -70,7 +70,7 @@ export default function about(){
 
                     <div className={styles.section_three_card}>
                         <div className={styles.section_three_card_banner_cover}>
-                            <Image src='/img/img-06.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
+                            <Image src='/images/img-06.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
                         </div>
                         <div className={styles.section_three_card_heading_cover}>
                         <p className={styles.section_three_card_heading}>Excellence</p>

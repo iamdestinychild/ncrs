@@ -89,11 +89,11 @@ module.exports = {
 
       backgroundImage: {
         contactUsBanner: "url('/images/contact-banner.jpg')",
-        webherobg: "url('/img/homepage.png')",
-        mobileherobg: "url('/img/mobile-hero.jpg')",
-        building: "url('/img/bg-02.jpg')",
-        "bg-03": "url('/img/img-07.jpeg')",
-        space: "url('/img/bg-03.jpg')",
+        webherobg: "url('/images/homepage.png')",
+        mobileherobg: "url('/images/mobile-hero.jpg')",
+        building: "url('/images/bg-02.jpg')",
+        "bg-03": "url('/images/img-07.jpeg')",
+        space: "url('/images/bg-03.jpg')",
       },
       boxShadow: {
         "3xl": "2px 2px 5px 4px #ccc",
