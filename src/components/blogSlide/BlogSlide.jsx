@@ -12,8 +12,8 @@ export default function BlogSlide(){
 
     return(
         <div className={styles.blog_post_slide}>
-        <h1 className={styles.blog_post_slide_heading}>Blog Posts and Publications</h1>
-        <h1 className={styles.web_blog_post_slide_heading}>Blog Posts</h1>
+        <h1 className={styles.blog_post_slide_heading}>Latest News and Updates</h1>
+        <h1 className={styles.web_blog_post_slide_heading}>Latest News and Updates</h1>
         <div className={styles.blog_post_slide_cards_outer}>
           <div className={styles.blog_post_slide_cards}>
             {

@@ -17,7 +17,7 @@
 }
 
 .programs_card{
-    @apply w-full slg:w-[448px]  2xl:w-[33%]  h-full rounded-[15px] pb-5 shadow-lg shadow-[#00000040] my-5 flex-[0_0_auto]
+    @apply w-full max-w-[400px]  h-full rounded-[15px] pb-5 shadow-lg shadow-[#00000040] my-5 flex-[0_0_auto]
 }
 
 .programs_card_banner_cover{

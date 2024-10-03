@@ -6,6 +6,7 @@ import Image from "next/image";
 import NewsLetter from "./newsletter/NewsLetter";
 import ProgramsSlide from "../components/research/ProgramsSlide";
 import BlogSlide from '../components/blogSlide/BlogSlide'
+import Whatwedo from '../components/Whatwedo'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <KeyLink />
       <Greeting />
       <Laboratories />
+      <Whatwedo />
       <ProgramsSlide />
       <BlogSlide />
       <NewsLetter />

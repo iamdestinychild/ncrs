@@ -11,7 +11,7 @@
 }
 
 .keylink_slide {
-  @apply bg-white gap-x-6 rounded-[5px] border border-gray-300 shadow-lg;
+  @apply bg-white gap-x-6 rounded-[5px] border border-gray-300 shadow-lg mx-[2rem];
 }
 
 .keylink_slide_inner {

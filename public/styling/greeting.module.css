@@ -8,7 +8,7 @@
 }
 
 .img_cover{
-    @apply relative w-full h-[30vh] sm:h-[50vh] xlg:w-[40%] xlg:h-[38vh] xlg-max:h-[85vh] 
+    @apply relative w-full h-[30vh] slg:h-[50vh] xlg:w-[40%] xlg:h-[38vh] xlg-max:h-[85vh] 
     xl:h-[70vh] rounded-t-[25px] xlg:rounded-tl-[25px] xlg:rounded-bl-[25px]
 }
 
@@ -17,7 +17,7 @@
 }
 
 .content{
-    @apply xlg:w-[60%]
+    @apply slg:w-[60%]
 }
 
 .content_heading{
@@ -40,3 +40,6 @@
     @apply font-montserrat font-[700] text-[20px]
 }
 
+.learn_more{
+    @apply text-white bg-primary text-base py-[1rem] px-[2rem] inline-block
+}

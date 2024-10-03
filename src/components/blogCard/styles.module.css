@@ -3,7 +3,7 @@
 } */
 
 .blog_post_slide_card{
-    @apply w-[100%] mb-[20px] flex-[0_0_auto] 2xl:px-[1rem]
+    @apply  max-w-[400px] mb-[20px] flex-[0_0_auto] 2xl:px-[1rem]
 }
 
 .blog_post_slide_card_banner_cover{

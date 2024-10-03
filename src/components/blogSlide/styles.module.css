@@ -17,7 +17,7 @@
 } */
 
 .blog_post_slide_cards{
-    @apply mt-10 grid grid-cols-1 slg:grid-cols-2 xl:grid-cols-3 gap-x-5 mx-[auto] py-10
+    @apply mt-10 grid grid-cols-1 slg:grid-cols-2 xl:grid-cols-3 gap-x-5 mx-[auto] py-10 
 }
 
 

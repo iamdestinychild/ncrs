@@ -23,5 +23,5 @@
 }
 
 .card_text{
-    @apply font-montserrat font-[600] text-[25px] text-center relative text-background
+    @apply font-montserrat font-[600] md:text-sm xlg:text-base  text-center relative text-background
 }

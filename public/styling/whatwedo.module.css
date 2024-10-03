@@ -1,0 +1,31 @@
+.whatwedo{
+    @apply bg-primary px-[1rem] py-[1rem] 
+}
+
+.whatwedo_inner > h1{
+    @apply text-white font-montserrat font-[700] text-[20px] slg:text-[30px]
+}
+
+.whatwedo_inner{
+    @apply  slg:w-[80%] mx-auto my-[3rem]
+}
+
+.whatwedo_content_container{
+    @apply grid grid-cols-1 slg:grid-cols-2
+}
+
+.content{
+    @apply flex justify-start items-center my-1
+}
+
+.content > p {
+    @apply font-jost text-[16px] slg:text-[20px] font-[600] text-white
+}
+
+.learn_more_container{
+    @apply w-full flex justify-center 
+}
+
+.learnMore{
+    @apply inline-block min-w-[4rem] mx-auto text-primary bg-white text-center py-2 px-[2rem] my-[2rem] text-[16px] 
+}

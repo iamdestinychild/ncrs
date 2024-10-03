@@ -1,5 +1,6 @@
 import styles from '/public/styling/greeting.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Greeting() {
     return (
@@ -20,6 +21,7 @@ export default function Greeting() {
                         <h1>Dr. David Nyomo Jeb</h1>
                         <h1>Director/CE</h1>
                     </div>
+                    <Link href="/about" className={styles.learn_more}>Learn More</Link>
                 </div>
             </div>
         </div>
