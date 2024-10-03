@@ -1,0 +1,15 @@
+.hero{
+    @apply h-[50vh] w-full
+}
+
+.hero_inner{
+    @apply w-full h-full
+}
+
+.hero_inner > div{
+    @apply w-full h-full
+}
+
+.swiper-slide{
+    @apply grid
+}

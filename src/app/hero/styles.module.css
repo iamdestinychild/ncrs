@@ -1,0 +1,101 @@
+.web_hero {
+    @apply hidden h-[50vh] lg:h-[40vh] xlg-max:h-[100vh] xl:h-[80vh] bg-red-400 overflow-x-hidden slg:block;
+}
+
+.web_hero_text_one{
+    @apply text-white text-[38px] xlg:text-[50px] font-[300]
+}
+
+.web_hero_text_two{
+    @apply text-white text-[38px] xlg:text-[50px] 2xl:text-[58px] font-[700] capitalize
+}
+
+.web_hero_text_three{
+    @apply text-white mt-5 text-[21px]  font-[500]
+}
+
+.web_hero_inner {
+    @apply relative h-[50vh] lg:h-[40vh] xlg-max:h-[100vh] xl:h-[80vh]
+     /* lg:h-[50vh] xlg-max:h-[70vh]  */
+     w-[300vw] overflow-hidden flex;
+}
+
+.web_hero_slide {
+    @apply relative h-[50vh] lg:h-[40vh] xlg-max:h-[100vh] xl:h-[80vh] w-full flex-shrink-0  ;
+}
+
+.web_hero_slide_banner {
+    @apply absolute w-full h-full;
+}
+
+.web_hero_slide_banner_img {
+    @apply w-full h-full object-cover;
+}
+
+.web_hero_slide_content {
+    @apply relative z-10 h-full mx-auto px-[2rem] top-[5rem];
+}
+
+.web_hero_slide_two_content {
+    @apply relative z-10 h-full mx-auto px-[2rem] top-[15rem];
+}
+
+.web_hero_slide_content > h1 {
+    @apply text-white text-left text-[30px] md:text-[40px] font-[700];
+}
+
+.web_line_block{
+    @apply w-[150px] h-[25px] bg-[#1C5237] my-[2rem]
+}
+
+.web_hero_slide_shade{
+    @apply absolute w-full h-full bg-[#191d1f7a]
+}
+
+.web_hero_slide_two_text{
+    @apply text-white text-left text-[30px] md:text-[50px] font-[700]
+}
+
+.web_hero_slide_three_content {
+    @apply relative z-10 mx-auto px-[2rem] top-[15rem];
+}
+
+.web_hero_slide_three_text{
+    @apply text-white text-left text-[30px] md:text-[50px] font-[700]
+}
+
+.mobile_hero {
+    @apply relative w-screen h-[60vh] overflow-hidden pt-[2rem] slg:hidden
+}
+
+.mobile_hero_inner {
+    @apply relative h-full w-[300vw] flex;
+}
+
+.mobile_hero_slide {
+    @apply relative h-[60vh] w-full flex-shrink-0;
+}
+
+.mobile_hero_slide_banner {
+    @apply absolute w-full h-full;
+}
+
+.mobile_hero_slide_banner_img {
+    @apply w-full h-full object-cover;
+}
+
+.mobile_hero_slide_content {
+    @apply relative z-10 h-full mx-auto px-[2rem] top-[5rem];
+}
+
+.mobile_hero_slide_content > h1 {
+    @apply text-white text-center text-[30px] md:text-[38px] font-[700];
+}
+
+.line_block{
+    @apply w-[150px] h-[20px] mx-auto bg-[#1C5237] my-[2rem]
+}
+
+.mobile_hero_slide_shade{
+    @apply absolute w-full h-full bg-[#191d1f7a]
+}

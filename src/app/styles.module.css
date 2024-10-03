@@ -1,0 +1,81 @@
+/* Key Links */
+
+.mobile_key_links{
+    @apply py-5 px-5 slg:hidden 
+}
+
+.mobile_key_links_heading{
+    @apply text-[40px] font-[700] text-center
+}
+
+.mobile_key_link_icon_cover{
+    @apply w-full mb-3
+}
+
+.mobile_key_link_icon{
+    @apply w-[23px] h-[23px] 
+}
+
+.mobile_key_links_containers{
+    @apply overflow-hidden grid grid-rows-2 grid-flow-col gap-5 mt-5
+}
+
+.mobile_key_link_container{
+    @apply relative border-[1px] border-[#00000040] w-full h-[150px] shadow-[#00000040] rounded-[15px] overflow-hidden px-3
+}
+
+.mobile_key_link_container_text{
+    @apply text-center font-[700] text-[16px] text-[#1C5237]
+}
+
+.mobile_key_link_container_bottom_clip{
+    @apply absolute block bg-[#1C5237] h-[34px] w-[20px] rounded-[15px] right-[-6px] top-[120px] rotate-45
+}
+
+.mobile_key_link_container_section_one{
+    @apply flex flex-col justify-between items-center mb-2 mt-3
+}
+
+.mobile_key_link_container_section_one > p{
+    @apply text-[20px] font-[500] text-[#1C5237]
+}
+
+.web_key_links{
+    @apply hidden w-full slg:block px-5 my-10
+}
+
+.web_key_links_heading{
+    @apply text-[40px] font-[700] text-[#000000] text-center 
+}
+
+.outer_card{
+    @apply overflow-hidden cursor-grab
+}
+
+.web_link_key_cards{
+    @apply flex justify-evenly items-stretch gap-x-10 mt-10 xl:mx-auto py-[2rem] px-[1rem] 
+}
+
+.web_link_key_card{
+    @apply min-w-[382px] relative overflow-hidden shadow-3xl rounded-[15px] p-5
+}
+
+.web_key_links_card_heading{
+    @apply text-[#1C5237] text-[20px] text-[500] text-center
+}
+
+.web_key_links_card_content{
+    @apply flex justify-center items-center my-5
+}
+
+.web_key_links_card_content >p{
+    @apply text-[20px] font-[600] text-[#1C5237]
+}
+
+.web_key_links_card_icon{
+    @apply w-[40%]
+}
+
+.web_key_link_container_bottom_clip{
+    @apply hidden
+}

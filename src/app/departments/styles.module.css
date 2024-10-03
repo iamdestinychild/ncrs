@@ -1,0 +1,72 @@
+.department{
+    @apply slg:hidden
+}
+
+.hero{
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] 2xl:h-[90vh] relative
+}
+
+.hero_layer{
+    @apply h-full w-full absolute bg-[#0A0A0ABA]
+}
+
+.hero_content{
+    @apply w-full slg:w-[85%] 2xl:w-[60%] absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
+}
+
+.heading_one{
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
+}
+
+.heading_one > span{
+    @apply text-[#E85555]
+}
+
+.heading_two{
+    @apply text-[#FFF9F9] text-[17px] my-[0.5rem] slg:text-[22px] font-[600]
+}
+
+.hero_title_page{
+    @apply w-full
+}
+
+.title_cover{
+    @apply w-full bg-[#FFF] py-[0.5rem] pl-[0.5rem]
+}
+
+.title{
+    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+}
+
+.page_cover{
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+}
+
+.page{
+    @apply text-[23px] slg:text-[64px] font-[700] text-[#FFF]
+}
+
+.department_section_one{
+    @apply px-[1rem] mt-[1rem] mb-[3rem]
+}
+
+.department_section_one > h1{
+    @apply text-[20px] font-[500] text-[#1C5237] text-center
+}
+
+.department_section_one > p{
+    @apply text-[16px] font-[400] text-[#000] text-center mt-5
+}
+
+
+.department_section_one_link{
+    @apply bg-[#D52027] rounded-[10px] flex justify-evenly items-center w-[70%] my-[1rem] p-[1rem] mx-auto
+}
+
+.department_section_one_link > p{
+    @apply text-[20px] font-[500] text-[#FFFF]
+}
+
+.department_section_one_link_icon{
+    @apply size-6 text-[#FFFF]
+}

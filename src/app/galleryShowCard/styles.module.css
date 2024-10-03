@@ -1,0 +1,39 @@
+.gallery_card_cover{
+    @apply fixed top-0 left-0 mx-auto h-full w-full bg-[#00000087] z-50
+}
+
+.gallery_card_container{
+    @apply slg:w-[90%] xl:w-[70%] slg:mx-auto relative top-[30%] xlg-max:top-[20%]
+}
+
+.gallery_card{
+    @apply relative
+}
+
+.gallery_card_banner_cover{
+    @apply relative w-[90%] 2xl:w-[70%] h-[300px] slg:h-[400px] xlg-min:h-[500px] xlg-max:h-[450px] mx-auto rounded-[15px]
+}
+
+.gallery_card_banner{
+    @apply w-full h-full object-cover rounded-[15px]
+}
+
+.gallery_card_pagination{
+    @apply absolute top-[40%] xlg-min:top-[45%] xlg-max:top-[55%] xl:top-[50%] z-50 w-full flex justify-between items-center
+}
+
+.cancel{
+    @apply top-[-3rem] absolute right-5 z-50
+}
+
+.icon_cancel{
+    @apply size-10 
+}
+
+.icon_prev{
+    @apply size-10
+}
+
+.icon_next{
+    @apply size-10
+}

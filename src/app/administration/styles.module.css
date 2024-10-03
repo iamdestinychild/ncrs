@@ -1,0 +1,231 @@
+.hero{
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] 2xl:h-[90vh] relative
+}
+
+.hero_layer{
+    @apply h-full w-full absolute bg-[#0A0A0ABA]
+}
+
+.hero_container{
+    @apply w-full absolute bottom-[2%]
+}
+
+.hero_content{
+    @apply w-full slg:w-[85%] 2xl:w-[60%]  px-[1rem]
+}
+
+.heading_one{
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
+}
+
+.heading_one > span{
+    @apply text-[#E85555]
+}
+
+.heading_two{
+    @apply text-[#FFF9F9] text-[17px] my-[0.5rem] slg:text-[22px] font-[600]
+}
+
+.hero_title_page{
+    @apply w-full
+}
+
+.title_cover{
+    @apply w-full bg-[#FFF] py-[0.5rem] pl-[0.5rem]
+}
+
+.title{
+    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+}
+
+.page_cover{
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+}
+
+.page{
+    @apply text-[20px] slg:text-[34px] font-[500] leading-normal text-[#FFF]
+}
+
+.hero_container_describe{
+    @apply mt-[1rem]
+}
+
+.hero_container_describe_paragraph{
+    @apply w-[95%] slg:w-[95%] pt-2 pl-2 ml-auto text-[#FFF] text-[14px] xlg:text-[20px] font-[400] leading-normal bg-[#000000]
+}
+
+.hero_container_cards{
+    @apply w-full grid grid-cols-2 slg:grid-cols-4 gap-[1px]
+}
+
+.hero_container_cards > p{
+    @apply w-full text-[14px] xlg:text-[20px] font-[400] xlg:font-[700] leading-normal p-[1rem] 2xl:py-[3rem]
+}
+
+.hero_container_cards > p:nth-child(odd){
+    @apply bg-[#CDCDCD91]
+}
+
+.hero_container_cards > p:nth-child(even){
+    @apply bg-[#FFFFFF]
+}
+
+.section_two{
+
+}
+
+.section_two_container{
+    @apply slg:py-[5rem] slg:px-[2rem] 2xl:w-[80%] 2xl:mx-auto
+}
+
+.section_two_cards{
+    @apply grid grid-cols-1 slg:grid-cols-3 slg:gap-x-3
+}
+
+.section_two_card{
+    @apply text-center slg:text-left p-3
+}
+
+.section_two_card:nth-child(1){
+    @apply bg-[#000000]
+}
+
+.section_two_card:nth-child(2){
+    @apply bg-[#D52027]
+}
+
+.section_two_card:nth-child(3){
+    @apply bg-[#1C5237]
+}
+
+.section_two_card > h1{
+    @apply text-[#FFFFFF] text-[16px] slg:text-[18px] xlg:text-[24px] font-[600] leading-normal
+}
+
+.section_two_card > p{
+    @apply text-[#FFFFFF] text-[14px] slg:text-[16px] xlg:text-[20px] slg:mt-[0.5rem] font-[400] leading-normal
+}
+
+.section_three{
+    @apply relative h-[60vh] md:h-[40vh] slg:h-auto bg-bg-03 bg-cover bg-no-repeat
+}
+
+.section_three_layer{
+    @apply w-full h-full bg-[#0000007D] absolute
+}
+
+.section_three_container{
+    @apply py-[3rem] 
+}
+
+.section_three_container_paragraph{
+    @apply relative w-[90%] p-1 slg:p-[1rem] ml-auto bg-[#000000] text-[#FFFF] text-[14px] xlg:text-[25px] font-[400]
+}
+
+.section_three_mobile_cards{
+    @apply relative slg:hidden w-[90%] my-[2rem] mx-auto grid grid-cols-2 grid-rows-2
+}
+
+.section_three_mobile_cards > div:nth-child(1){
+    @apply row-span-2 bg-[#FFFFFFCC] py-2 px-3
+}
+
+.section_three_mobile_cards > div:nth-child(1) > p{
+    @apply text-[14px] font-[600] leading-normal
+}
+
+.section_three_mobile_cards > div:nth-child(2){
+    @apply bg-[#D5202780]
+}
+
+.section_three_mobile_cards > div:nth-child(3){
+    @apply bg-[#1C5237]
+}
+
+.section_three_web_cards{
+    @apply hidden slg:block relative mt-[1rem]
+}
+
+.section_three_web_card_first{
+    @apply grid grid-cols-4 place-content-center
+}
+
+.section_three_web_card_first > p{
+    @apply text-[#000000] text-[16px] xlg:text-[21px] py-[4rem] px-[0.5rem] font-[700] leading-normal
+}
+
+.section_three_web_card_first > p:nth-child(odd){
+    @apply bg-[#CDCDCD91]
+}
+
+.section_three_web_card_first > p:nth-child(even){
+    @apply bg-[#FFFFFF]
+}
+
+.section_three_web_card_second{
+    @apply grid grid-cols-4 place-content-center
+}
+
+.section_three_web_card_second > p{
+    @apply text-[#000000] text-[#FFFFFF] text-[16px] xlg:text-[21px] py-[4rem] px-[0.5rem] xlg:px-[1rem] font-[700] leading-normal
+}
+
+.section_three_web_card_second > p:nth-child(2){
+    @apply bg-[#D5202780]
+}
+
+.section_three_web_card_second > p:nth-child(3){
+    @apply bg-[#1C5237]
+}
+
+.section_four{
+
+}
+
+.section_four_cards{
+    @apply grid grid-cols-1 slg:grid-cols-3 slg:gap-3 slg:px-[2rem] slg:py-[2rem]
+}
+
+.section_four_card{
+    @apply text-center slg:text-left p-3 h-auto
+}
+
+.section_four_card:nth-child(1){
+    @apply bg-[#000000]
+}
+
+.section_four_card:nth-child(2){
+    @apply bg-[#D52027]
+}
+
+.section_four_card:nth-child(3){
+    @apply bg-[#1C5237]
+}
+
+.section_four_card:nth-child(4){
+    @apply bg-[#FFFF] 
+}
+
+.section_four_card:nth-child(5){
+    @apply bg-[#000000]
+}
+
+.section_four_card:nth-child(6){
+    @apply bg-[#D52027]
+}
+
+.section_four_card > h1{
+    @apply text-[#FFFFFF] text-[16px] slg:text-[18px] xlg:text-[24px] font-[600] leading-normal
+}
+
+.section_four_card:nth-child(4) > h1{
+    @apply text-[#000] text-[16px] slg:text-[18px] xlg:text-[24px] font-[600] leading-normal
+}
+
+.section_four_card > p{
+    @apply text-[#FFFFFF] text-[14px] slg:text-[16px] xlg:text-[20px] font-[400] leading-normal
+}
+
+.section_four_card:nth-child(4) > p{
+    @apply text-[#000] text-[14px] slg:text-[16px] xlg:text-[20px] font-[400] leading-normal
+}

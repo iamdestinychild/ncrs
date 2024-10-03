@@ -1,0 +1,26 @@
+/* services */
+
+.services{
+    @apply hidden xlg:block bg-[#1C5237] px-[2rem] py-[8rem] text-[#FFFF]
+}
+
+.services_cover{
+    @apply 2xl:w-[90%] mx-auto
+}
+
+.services_line{
+    @apply block bg-[#FFFF] w-[375px] h-[2px]
+}
+
+.services_heading{
+    @apply mt-10 text-[36px] font-[600]
+}
+
+.service{
+    @apply grid grid-cols-4 mt-10 gap-[4rem]
+}
+
+.service > p{
+    @apply font-[500] text-[24px] xl:text-[20px]
+}
+

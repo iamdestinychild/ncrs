@@ -1,0 +1,45 @@
+/* programs */
+
+.programs{
+    @apply px-3 my-[6rem] 2xl:px-[10rem]
+}
+
+.programs_heading{
+    @apply text-[20px] slg:text-[40px] font-[500] slg:font-[700] text-center 
+}
+
+.card_outer{
+    @apply overflow-hidden cursor-grab
+}
+
+.programs_cards{
+    @apply relative flex items-center justify-evenly gap-x-9  mt-5 mx-[auto] 
+}
+
+.programs_card{
+    @apply w-full slg:w-[448px]  2xl:w-[33%]  h-full rounded-[15px] pb-5 shadow-lg shadow-[#00000040] my-5 flex-[0_0_auto]
+}
+
+.programs_card_banner_cover{
+    @apply w-full h-[307px] relative rounded-[15px] 
+}
+
+.programs_card_banner{
+    @apply w-full h-full object-fill rounded-[15px]
+}
+
+.programs_card_content{
+    @apply md:flex justify-between items-center w-full px-3 mt-5
+}
+
+.programs_card_content > p{
+    @apply md:w-[70%] text-[18px] font-[700] text-[#D52027] 
+}
+
+.programs_card_content_link_cover{
+    @apply w-full md:w-[30%] flex justify-end items-center my-2
+}
+
+.programs_card_content_link{
+    @apply w-[117px] h-[43px] pt-3 text-center block rounded-[18px] bg-[#1C5237] text-[#FFFF]
+}

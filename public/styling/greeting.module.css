@@ -1,0 +1,42 @@
+.greeting{
+    @apply px-5 w-full my-[4rem] lg:px-12
+     /* xlg:px-10 */
+}
+
+.greeting_inner{
+    @apply w-full xlg:flex justify-between items-start slg:gap-x-3
+}
+
+.img_cover{
+    @apply relative w-full h-[30vh] sm:h-[50vh] xlg:w-[40%] xlg:h-[38vh] xlg-max:h-[85vh] 
+    xl:h-[70vh] rounded-t-[25px] xlg:rounded-tl-[25px] xlg:rounded-bl-[25px]
+}
+
+.img{
+    @apply w-full h-full object-cover rounded-t-[25px] xlg:rounded-tl-none xlg:rounded-bl-[25px]
+}
+
+.content{
+    @apply xlg:w-[60%]
+}
+
+.content_heading{
+    @apply font-montserrat font-[700] text-[30px] my-1
+}
+
+.content_article{
+    @apply xl:pr-12
+}
+
+.content_article > p {
+    @apply font-jost text-[16px] font-[500] my-[0.4rem] xl:my-[2rem]
+}
+
+.content_title{
+    @apply mt-[1rem]
+}
+
+.content_title > h1{
+    @apply font-montserrat font-[700] text-[20px]
+}
+

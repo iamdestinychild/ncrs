@@ -1,0 +1,39 @@
+.keylink {
+  @apply py-[3rem] px-[0.5rem] xlg:w-[95%] xl:w-[85%] mx-auto w-full relative;
+}
+
+.keylink_heading {
+  @apply font-roboto_mono text-[700] text-[30px] xlg:text-[40px] text-center;
+}
+
+.keylink_slider {
+  @apply flex justify-center items-center my-8 mx-10;
+}
+
+.keylink_slide {
+  @apply bg-white gap-x-6 rounded-[5px] border border-gray-300 shadow-lg;
+}
+
+.keylink_slide_inner {
+  @apply flex justify-between items-center w-full px-3 py-4 slg:py-8 xlg:py-12;
+}
+
+.keylink_slide_content {
+  @apply text-primary text-left;
+}
+
+.keylink_slide_content > p {
+  @apply font-jost text-[16px];
+}
+
+.keylink_slide_content > h1 {
+  @apply text-[17px] font-[600];
+}
+
+.icon_container {
+  @apply w-[50%];
+}
+
+.icon {
+  @apply size-14 text-primary;
+}

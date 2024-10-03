@@ -1,0 +1,27 @@
+.laboratories{
+    @apply px-[1rem] py-[2rem]
+}
+
+.heading{
+    @apply font-montserrat font-[700] text-[27px] xlg:text-[35px] text-center
+}
+
+.card_container{
+    @apply grid grid-cols-1 slg:grid-cols-2 xlg-min:grid-cols-3 xl:w-[80%] mx-auto slg:gap-x-5 w-full min-h-[15vh] gap-y-7 mt-[3rem]
+}
+
+.card{
+    @apply rounded-[15px] relative min-w-[100px] h-full p-5
+}
+
+.card_image{
+    @apply object-cover w-full h-full rounded-[15px]
+}
+
+.card_shade{
+    @apply absolute top-0 left-0 w-full h-full rounded-[15px] bg-primary opacity-[0.7]
+}
+
+.card_text{
+    @apply font-montserrat font-[600] text-[25px] text-center relative text-background
+}

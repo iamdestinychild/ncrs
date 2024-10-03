@@ -1,0 +1,77 @@
+/* blog post slide */
+
+.hero{
+    @apply bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] 2xl:h-[90vh] relative
+}
+
+.hero_layer{
+    @apply h-full w-full absolute bg-[#0A0A0ABA]
+}
+
+.hero_content{
+    @apply w-full slg:w-[85%] 2xl:w-[60%] absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
+}
+
+.heading_one{
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
+}
+
+.heading_one > span{
+    @apply text-[#E85555]
+}
+
+.heading_two{
+    @apply text-[#FFF9F9] text-[17px] my-[0.5rem] slg:text-[22px] font-[600]
+}
+
+.hero_title_page{
+    @apply w-full
+}
+
+.title_cover{
+    @apply w-full bg-[#FFF] py-[0.5rem] pl-[0.5rem]
+}
+
+.title{
+    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+}
+
+.page_cover{
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+}
+
+.page{
+    @apply text-[23px] slg:text-[64px] font-[700] text-[#FFF]
+}
+
+.news{
+    
+}
+
+/* blog post slide */
+
+.blog_post_slide{
+    @apply my-10 overflow-hidden px-3 2xl:px-[10rem]
+}
+
+.blog_post_slide_heading{
+    @apply text-[20px] font-[500] text-center slg:hidden
+}
+
+.blog_post_slide_cards_outer{
+    @apply overflow-hidden
+}
+
+/* .blog_post_slide_cards{
+    @apply mt-10 flex items-center justify-between gap-x-5 mx-[auto] py-10
+} */
+
+.blog_post_slide_cards{
+    @apply mt-10 grid grid-cols-1 slg:grid-cols-2 xlg:grid-cols-3 gap-x-5 gap-y-[2rem] mx-[auto] py-10
+}
+
+
+.web_blog_post_slide_heading{
+    @apply hidden slg:block text-[#000000] font-[700] text-[40px] text-center
+
+}

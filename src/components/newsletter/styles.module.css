@@ -1,0 +1,48 @@
+
+.newsletter{
+    @apply bg-[#1C5237] py-5 xlg:py-[3rem] xl:py-[5rem] px-3 slg:px-[3rem] 2xl:px-[10rem] text-[#FFF]
+}
+
+.container{
+    @apply 2xl:w-[80%] mx-auto
+}
+
+.newsletter_heading{
+    @apply text-[22px] font-[600] slg:text-left slg:text-[38px] xlg:text-[48px] text-center
+}
+
+.newsletter_paragraph{
+    @apply text-[14px] slg:text-[16px] font-[400] text-center slg:text-left my-[0.2rem]
+}
+
+.newsletter_form{
+    @apply my-[2rem] flex flex-col slg:flex-row items-center slg:gap-[1rem]
+}
+
+.newsletter_form_input_cover{
+    @apply relative flex flex-col w-full slg:w-[60%]
+}
+
+.input_cover_label{
+    @apply text-[14px] font-[400] xlg:text-[16px]
+}
+
+.form_input{
+    @apply outline-none rounded-[15px] w-full xlg:text-[18px] h-[3rem] py-[1.6rem] xlg:py-[2rem] pl-3 border-[1px] border-[#FFF] bg-transparent text-[#FFF]
+}
+
+.form_button{
+    @apply w-full slg:w-[35%] text-center mt-[1rem] rounded-[15px] bg-[#191D1F] py-[1rem] xlg:py-[1.4rem] cursor-pointer
+}
+
+.form_socials{
+    @apply w-[50%] slg:w-[30%] 2xl:w-[20%] flex mx-auto justify-evenly mt-[1rem] 2xl:mt-[4rem]
+}
+
+.form_social_icon_cover{
+    @apply h-[2.3rem] w-[2.3rem] slg:h-[3rem] slg:w-[3rem] relative block
+}
+
+.form_social_icon{
+    @apply h-full w-full
+}

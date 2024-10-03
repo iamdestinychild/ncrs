@@ -1,0 +1,143 @@
+.about{
+    
+}
+
+.hero{
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] relative
+}
+
+.hero_layer{
+    @apply h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] w-full absolute bg-[#0A0A0ABA]
+}
+
+.hero_content{
+    @apply w-full slg:w-[85%] 2xl:w-[60%] absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
+}
+
+.heading_one{
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
+}
+
+.heading_one > span{
+    @apply text-[#E85555]
+}
+
+.heading_two{
+    @apply text-[#FFF9F9] text-[17px] my-[0.5rem] slg:text-[22px] font-[600]
+}
+
+.hero_title_page{
+    @apply w-full
+}
+
+.title_cover{
+    @apply w-full bg-[#FFF] py-[0.5rem] pl-[0.5rem]
+}
+
+.title{
+    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+}
+
+.page_cover{
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+}
+
+.page{
+    @apply text-[36px] slg:text-[64px] font-[700] text-[#FFF]
+}
+
+
+.section_two{
+    @apply  px-5 my-[3rem] xl:px-[5rem] 2xl:px-[10rem]
+}
+
+.section_two_container{
+    @apply slg:w-[90%] xl:w-[95%] 2xl:w-[80%]  mx-auto 
+}
+
+.section_two_content_cover{
+    @apply flex flex-col slg:flex-col-reverse xlg-max:flex-row xl:flex-row justify-between items-start gap-x-5
+}
+
+.section_two_content{
+    @apply w-full slg:w-full xl:w-[50%]
+}
+
+.section_two_content_line{
+    @apply w-[117px] h-[3px] bg-[#000] mb-5
+}
+
+.section_two_container > h1{
+    @apply text-[36px] font-[700]
+}
+
+.section_two_content > article > p{
+    @apply text-[16px] font-[500] text-[#666C89] my-[1rem]
+}
+
+.section_two_banner_cover{
+    @apply relative w-[474px] slg:w-full xl:w-[50%] slg:h-[453px] h-[563px] xlg-max:h-[563px] 
+    rounded-[15px]  hidden slg:block
+}
+
+.section_two_banner{
+    @apply w-full h-full object-fill rounded-[15px] 
+}
+
+.section_three{
+    @apply bg-[#1C5237] px-[1rem] pt-[3rem] pb-[5rem] xl:px-[5rem] 2xl:px-[10rem]
+}
+
+.section_three_heading{
+    @apply text-[#FFF] text-[36px] font-[700]
+}
+
+.section_three_cards{
+    @apply w-full grid grid-cols-2 slg:grid-cols-3 xlg-max:grid-cols-4 xl:grid-cols-4 gap-x-5
+}
+.section_three_card{
+    @apply w-full h-[230px] my-[2rem]
+}
+.section_three_card_banner_cover{
+    @apply relative h-full w-full
+}
+
+.section_three_card_banner{
+    @apply w-full h-full object-fill
+}
+
+.section_three_card_heading_cover{
+    @apply bg-[#CE0C0C] text-center py-[0.5rem]
+}
+
+.section_three_card_heading{
+    @apply text-[16px] font-[700] text-[#FFF]
+}
+
+.section_four{
+    @apply py-[3rem] px-[2rem] xl:px-[5rem] 2xl:px-[10rem]
+}
+
+.section_four_cards{
+    @apply grid grid-cols-1 slg:grid-cols-2 gap-x-5 gap-y-[2rem] w-full
+}
+
+.section_four_card{
+    @apply w-full xl:w-[70%]
+}
+
+.section_four_card > h1{
+    @apply text-[28px] font-[500] text-[#000]
+}
+
+.section_four_card > article{
+    @apply h-[250px] p-[2rem]
+}
+
+.section_four_card:nth-child(1) > article{
+    @apply bg-[#EEEEED]  text-[16px] font-[500] 
+}
+
+.section_four_card:nth-child(2) > article{
+    @apply bg-[#1C5237] text-[#FFF] text-[16px]
+}

@@ -1,0 +1,101 @@
+.nav{
+    @apply bg-white px-[1rem] slg:py-[1rem] sticky top-0 z-50 drop-shadow-strong w-full
+}
+
+.nav_inner{
+    @apply flex justify-between items-center
+}
+
+.web_links_container{
+    @apply hidden xlg:flex justify-evenly items-center xlg:w-[60%]
+}
+
+.web_links_container > a{
+    @apply font-jost text-[18px] font-[500] 
+    text-primary hover:text-white hover:bg-primary px-[0.5rem] py-[0.4rem] rounded-[5px]
+}
+
+.bar_icon{
+    @apply size-8 xlg:hidden slg:size-12
+}
+
+.logo_container{
+    @apply relative w-[100px] slg:w-[200px] h-[70px]
+}
+
+.logo{
+    @apply object-contain w-full h-full absolute
+}
+
+.sidebar_container{
+    @apply w-full
+}
+
+/*  */
+
+
+.web_nav{
+    @apply sticky w-full items-center justify-between pl-3 py-5  pr-10 slg:pr-3 2xl:px-[7rem] bg-white hidden lg:flex z-50
+
+}
+
+.web_nav_logo{
+    @apply block pr-[10px] xl:w-[10%] 2xl:w-[8%] border-r-[1px] border-[#D9D9D9]
+}
+
+
+.web_nav_links{
+    @apply flex w-[82%] slg:w-[83%] xl:w-[80%] 2xl:w-[60%] slg:gap-x-[0.3rem] items-center justify-evenly
+}
+
+.web_link{
+    @apply text-[16px]  font-[400] text-[#1C5237] text-center text-[poppins]
+}
+
+.link_arrow{
+    @apply flex gap-[5px] items-baseline xl:items-center justify-between 
+}
+
+.about_dropdown{
+    @apply w-[195px] absolute bg-white  hidden
+}
+
+.about_dropdown_link{
+    @apply w-full py-[0.4rem] text-center text-primary hover:bg-primary hover:text-white text-[16px] font-[400] my-[0.7rem] block
+}
+
+.about_span{
+    @apply font-[600]
+}
+
+.dropdown{
+    @apply cursor-pointer
+}
+
+.dropdown:hover .about_dropdown{
+    @apply block
+}
+
+.nav_arrow{
+    @apply -rotate-90 ease-in
+}
+
+.dropdown:hover .nav_arrow{
+    @apply rotate-0
+}
+
+.mobliemenu_cover{
+    @apply absolute top-0 right-0 w-full h-screen bg-[#0000009f] pt-[1.5rem]
+}
+
+.mobliemenu{
+    @apply text-center bg-[#FFFFFF] w-[70%] slg:w-[50%] ml-auto py-[16px]
+}
+
+.mobliemenu_link{
+    @apply block text-[#000000B2] my-[25px] font-[500] font-jost
+}
+
+.no-scroll{
+    @apply overflow-hidden h-screen
+}

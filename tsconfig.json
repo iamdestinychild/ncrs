@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/components/webDepartment/webdepartment.jsx", "src/app/webDepartment/webdepartment.jsx", "src/app/research/ProgramsSlide.jsx", "src/app/services/Services.jsx", "src/app/planning/page.jsx", "src/app/planning/layout.jsx", "src/app/organogram/layout.jsx", "src/app/organogram/page.jsx", "src/app/news/layout.jsx", "src/app/news/page.jsx", "src/app/mandate/layout.jsx", "src/app/mandate/page.jsx", "src/app/management/layout.jsx", "src/app/management/page.jsx", "src/app/laboratories/avanced-space-technology-application-laboratory-uyo/layout.jsx", "src/app/laboratories/avanced-space-technology-application-laboratory-uyo/page.jsx", "src/app/laboratories/corporative-Information-network/layout.jsx", "src/app/laboratories/corporative-Information-network/page.jsx", "src/app/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki/layout.jsx", "src/app/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki/page.jsx", "src/app/laboratories/zonal-advanced-space-technology-application-laboratory-kano/layout.jsx", "src/app/laboratories/zonal-advanced-space-technology-application-laboratory-kano/page.jsx", "src/app/laboratories/zonal-advanced-space-technology-application-laboratory-kashere/layout.jsx", "src/app/laboratories/zonal-advanced-space-technology-application-laboratory-kashere/page.jsx", "src/app/laboratories/zonal-advanced-space-technology-application-laboratory-langtang/layout.jsx", "src/app/laboratories/zonal-advanced-space-technology-application-laboratory-langtang/page.jsx", "src/app/laboratories/layout.jsx", "src/app/contact/layout.jsx", "src/app/contact/page.jsx", "src/app/department/Departments.jsx", "src/app/departments/layout.jsx", "src/app/departments/page.jsx", "src/app/downloads/layout.jsx", "src/app/downloads/page.jsx", "src/app/administration/layout.jsx", "src/app/administration/page.jsx", "src/app/background/layout.jsx", "src/components/IconsPalette.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

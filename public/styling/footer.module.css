@@ -1,0 +1,20 @@
+.footer{
+    @apply bg-black text-white
+}
+
+
+.footer_inner{
+    @apply px-[1rem] py-[2rem] slg:px-[3rem] slg:grid slg:grid-cols-3 xlg:grid-cols-4
+}
+
+.footer_inner h1{
+    @apply text-[18px] slg:text-[20px] font-[700]
+}
+
+.footer_inner p{
+    @apply text-[16px] slg:text-[18px]
+}
+
+.section{
+    @apply my-[2rem] slg:my-[3rem]
+}
