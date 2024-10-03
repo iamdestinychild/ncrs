@@ -4,10 +4,10 @@ import Image from 'next/image'
 import { RightArrow } from '../../components/IconsPalette'
 import WebDepartment from '../../components/webDepartment/webdepartment'
 import Water from '../../../public/icons/Water'
-import Ict from '../../../public/icons/Ict'
 import Geoscience from '../../../public/icons/GeoScience'
 import Policy from '../../../public/icons/Policy'
 import Procurement from '../../../public/icons/Procurment'
+import Procurement from '../../../public/icons/Ict'
 import Station from '../../../public/icons/Station'
 
 export default function Department(){
