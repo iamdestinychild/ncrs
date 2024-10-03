@@ -3,12 +3,12 @@ import styles from './styles.module.css'
 import Image from 'next/image'
 import { RightArrow } from '../../components/IconsPalette'
 import WebDepartment from '../../components/webDepartment/webdepartment'
-import Water from '/icons/Water'
-import Ict from '/icons/Ict'
-import Geoscience from '/icons/GeoScience'
-import Policy from '/icons/Policy'
-import Procurement from '/icons/Procurment'
-import Station from '/icons/Station'
+import Water from '../../../public/icons/Water'
+import Ict from '../../../public/icons/Ict'
+import Geoscience from '../../../public/icons/GeoScience'
+import Policy from '../../../public/icons/Policy'
+import Procurement from '../../../public/icons/Procurment'
+import Station from '../../../public/icons/Station'
 
 export default function Department(){
     return(
