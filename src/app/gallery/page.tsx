@@ -3,9 +3,9 @@
 import styles from './styles.module.css'
 import Image from 'next/image'
 import {gallery} from '../../../data'
-import { Cancel, Next, Prev } from '@/componets/IconsPalette';
+import { Cancel, Next, Prev } from '../../components/IconsPalette';
 import { useState, useEffect } from 'react';
-import GalleryCard from '@/componets/galleryCard/gallerycard';
+import GalleryCard from '../../components/galleryCard/gallerycard';
 
 export default function Gallery(){
     const [imageArray, setImageArray] = useState<string[]>([])
