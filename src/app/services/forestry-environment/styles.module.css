@@ -84,5 +84,61 @@
 }
 
 .section_two_banner_container{
-    @apply relative w-full slg:w-[50%] xl:max-w-[400px] h-[300px] slg:h-[500px]
+    @apply relative w-full slg:w-[50%] xl:max-w-[400px] h-[300px] slg:h-auto
+}
+
+.section_two_heading{
+    @apply mb-10
+}
+
+.section_two_heading > h1{
+    @apply font-montserrat font-[700] text-[25px] slg:text-[35px] my-2 text-center
+}
+
+.section_two_heading > p{
+    @apply font-[500] font-jost text-[16px] slg:text-[18px] xl:pr-[40px]
+}
+
+.banner_text_content{
+    @apply font-jost font-[500]
+}
+
+.content_list >li{
+    @apply text-[16px] font-[400] my-2 
+}
+
+.content_p{
+    @apply text-[20px] font-[600]
+} 
+
+.content_list{
+    @apply list-disc pl-5 max-w-[90%]
+}
+
+.content_list >li{
+    @apply text-[16px] font-[400] my-2 
+}
+
+.application{
+    @apply my-5
+}
+
+.application > h1{
+    @apply font-[700] font-montserrat text-[30px]
+}
+
+.application ul{
+    @apply list-disc pl-5 max-w-[90%]
+}
+
+.impact{
+    @apply my-5 max-w-[90%]
+}
+
+.impact > h1{
+    @apply font-montserrat font-[700] my-3
+}
+
+.impact > p{
+    @apply font-jost font-[400] 
 }

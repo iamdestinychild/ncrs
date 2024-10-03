@@ -1,12 +1,12 @@
 import styles from "./styles.module.css"
 import Image from "next/image"
 import Link from "next/link"
-import Water from '../../../public/icons/Water'
-import Geoscience from '../../../public/icons/GeoScience'
+import Water from '../../../../public/icons/Water'
+import Geoscience from '../../../../public/icons/GeoScience'
 // import Policy from '../../../public/icons/Policy'
-import Procurement from '../../../public/icons/Procurment'
+import Procurement from '../../../../public/icons/Procurment'
 // import Procurement from '../../../public/icons/Ict'
-import Station from '../../../public/icons/Station'
+import Station from '../../../../public/icons/Station'
 
 export default function Services(){
     return(
@@ -28,11 +28,30 @@ export default function Services(){
             </section>
             <section className={styles.section_two}>
                 <div className={styles.section_two_inner}>
+                    <div className={styles.section_two_heading}>
+                        <h1>Cadastral Mapping</h1>
+                        <p>Our Cadastral Mapping service provides accurate and up-to-date maps for land administration and property management, utilizing high-resolution imagery and advanced mapping techniques.</p>
+                    </div>
                     <div className={styles.banner_text}>
                         <div className={styles.section_two_banner_container}>
-                            <Image src='/images/service-img.jpg' alt='image' className={styles.section_two_banner} fill/>
+                            <Image src='/images/services-08.jpg' alt='image' className={styles.section_two_banner} fill/>
                         </div>
-                        <p>Nigeria&apos;s plan to establish a comprehensive Remote Sensing Centre dates back to 1976, following studies by the Food and Agricultural Organization (FAO) that emphasized the need for such a center. In 1998, the National Council of Ministers approved the establishment of the National Centre for Remote Sensing (NCRS) in Jos, with a Satellite Ground Receiving Station in Kerang, Plateau State. Initially overseen by the Federal Ministry of Science, Technology, and Innovation, responsibility shifted to the National Agency for Science and Engineering Infrastructure (NASENI) in 1992. The NCRS began operations in 1995 and now operates under the National Space Research and Development Agency (NASRDA), which was established in 1999. NCRS is responsible for satellite data acquisition, imagery distribution, and capacity building to support socio-economic development in Nigeria.</p>
+                        <div className={styles.banner_text_content}>
+                            <p className={styles.content_p}>We offer:</p>
+                            <ul className={styles.content_list}>
+                                <li>Boundary Delineation: Accurately map property boundaries for land registration.</li>
+                                <li>Land Registration Support: Assist in the process of  registering land and property.</li>
+                                <li>Dispute Resolution: Provide precise maps to help resolve land disputes.</li>
+                            </ul>
+                       </div>
+                    </div>
+                    <div className={styles.application}>
+                        <h1>Applications</h1>
+                        <ul>
+                            <li>Agriculture: Optimize farming practices through precise spatial data.</li>
+                            <li>Transportation: Plan and manage transportation networks efficiently.</li>
+                            <li>Public Health: Track and manage public health data spatially for better resource allocation.</li>
+                        </ul>
                     </div>
                     <div className={styles.cards}>
                     <Link href='/services/satallite-data-services' className={styles.card}>
@@ -60,11 +79,11 @@ export default function Services(){
                             <h1>Disaster Management</h1>
                         </Link>
                         <Link href='/services/geo-informatics' className={styles.card}>
-                            <Geoscience className={styles.icon}/>
+                            <Geoscience customStyle={styles.icon}/>
                             <h1>Geo-Informatics</h1>
                         </Link>
-                        <Link href='/services/cadastral-mapping' className={styles.card}>
-                            <Geoscience className={styles.icon}/>
+                        <Link href='/services/cadastral-mapping' className={`${styles.card} bg-primary text-white`}>
+                            <Geoscience customStyle={styles.icon}/>
                             <h1>Cadastral Mapping</h1>
                         </Link>
                     </div>
