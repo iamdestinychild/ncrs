@@ -1,4 +1,4 @@
-export default function ({ customStyle }) {
+export default function Ict({ customStyle }) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="58" height="69" className={customStyle} viewBox="0 0 58 69" fill="none">
 <path d="M23.4392 1C12.8608 1 7.5716 1 4.2872 4.9262C1.0028 8.8524 1 15.1671 1 27.8C1 40.4328 1 46.7509 4.2872 50.6738C7.5744 54.5966 12.8608 54.6 23.4392 54.6H34.6588C45.2372 54.6 50.5264 54.6 53.8108 50.6738C56.0788 47.967 56.7816 44.1212 57 37.85M29 54.6V68M17.8 68H40.2M26.2 44.55H31.8" stroke="#1C5237" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

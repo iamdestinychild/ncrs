@@ -1,4 +1,4 @@
-export default function ({ customStyle }) {
+export default function Policy({ customStyle }) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="61" height="67" className={customStyle} viewBox="0 0 61 67" fill="none">
 <path d="M15.6264 39.9994C14.3497 40.0015 13.0888 40.3132 11.9317 40.9127C10.7746 41.5122 9.74915 42.3851 8.92696 43.4705C8.10477 44.5558 7.50562 45.8275 7.17134 47.1967C6.83706 48.5659 6.77569 49.9997 6.99153 51.398C7.20736 52.7962 7.6952 54.1254 8.42099 55.2925C9.14677 56.4597 10.093 57.4368 11.1937 58.1556C12.2944 58.8744 13.523 59.3177 14.7937 59.4544C16.0645 59.5912 17.3468 59.4181 18.5511 58.9473" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

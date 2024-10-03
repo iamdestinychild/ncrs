@@ -75,27 +75,3 @@
 .section_two{
     @apply py-[2rem] px-[1rem]
 }
-
-.section_two_inner{
-    @apply xlg:w-[80%] mx-auto
-}
-
-.section_two_inner > h1{
-    @apply font-montserrat font-[700] text-[16px] slg:text-[40px] text-center
-}
-
-.cards{
-    @apply grid grid-cols-1 gap-5 slg:grid-cols-2 my-3
-}
-
-.card{
-    @apply inline-block max-w-[400px] flex justify-evenly items-center px-5 py-6 border border-gray-300 drop-shadow-blur rounded-[15px]
-}
-
-.card > h1{
-    @apply font-montserrat font-[500] text-[16px] ml-2
-}
-
-.icon{
-    @apply size-12
-}

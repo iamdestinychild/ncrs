@@ -3,7 +3,12 @@ import styles from './styles.module.css'
 import Image from 'next/image'
 import { RightArrow } from '../../components/IconsPalette'
 import WebDepartment from '../../components/webDepartment/webdepartment'
-
+import Water from '../../../public/icons/Water'
+import Ict from '../../../public/icons/Ict'
+import Geoscience from '../../../public/icons/GeoScience'
+import Policy from '../../../public/icons/Policy'
+import Procurement from '../../../public/icons/Procurment'
+import Station from '../../../public/icons/Station'
 
 export default function Department(){
     return(
@@ -26,25 +31,31 @@ export default function Department(){
             <section className={styles.section_two}>
                 <div className={styles.section_two_inner}>
                     <h1>Departments</h1>
-                    <div>
-                        <div>
+                    <div className={styles.cards}>
+                        <Link href='' className={styles.card}>
+                            <Water customStyle={styles.icon}/>
                             <h1>Water resources & Climate</h1>
-                        </div>
-                        <div>
+                        </Link>
+                        <Link href='' className={styles.card}>
+                            <Station customStyle={styles.icon} />
                             <h1>Ground Receiving Station</h1>
-                        </div>
-                        <div>
+                        </Link>
+                        <Link href='' className={styles.card}>
+                            <Procurement customStyle={styles.icon} />
                             <h1>Procurement</h1>
-                        </div>
-                        <div>
-                            <h1>Policy, Planning and Research (PPR)</h1>
-                        </div>
-                        <div>
+                        </Link>
+                        <Link href='' className={styles.card}>
+                            <Policy customStyle={styles.icon} />
+                            <h1>Policy, Planning and Research</h1>
+                        </Link>
+                        <Link href='' className={styles.card}>
+                            <Ict customStyle={styles.icon} />
                             <h1>ICT</h1>
-                        </div>
-                        <div>
+                        </Link>
+                        <Link href='' className={styles.card}>
+                            <Geoscience className={styles.icon}/>
                             <h1>Geosciences</h1>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </section>

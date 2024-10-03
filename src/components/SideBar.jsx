@@ -28,7 +28,7 @@ export default function SideBar() {
                     <ul>
                         <li><Link href="/about" className={styles.sidebar_dropdown_link}>About Us</Link></li>
                         <li><Link href="/background" className={styles.sidebar_dropdown_link}>Our Background</Link></li>
-                        <li><Link href="/department" className={styles.sidebar_dropdown_link}>Department</Link></li>
+                        <li><Link href="/departments" className={styles.sidebar_dropdown_link}>Department</Link></li>
                         <li><Link href="management" className={styles.sidebar_dropdown_link}>Managemnet Team</Link></li>
                         <li><Link href="/organogram" className={styles.sidebar_dropdown_link}>Organogram</Link></li>
                         <li><Link href="/labs" className={styles.sidebar_dropdown_link}>Laboratories</Link></li>
