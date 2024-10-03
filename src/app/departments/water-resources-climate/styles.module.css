@@ -77,9 +77,9 @@
 }
 
 .banner_cover{
-    @apply relative w-full max-h-[400px]
+    @apply relative w-[200px] h-[200px] rounded-[15px]
 }
 
 .banner{
-    @apply w-full h-full object-fill
+    @apply w-full h-full object-fill rounded-[15px]
 }
