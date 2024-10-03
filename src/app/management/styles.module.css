@@ -63,7 +63,7 @@
 }
 
 .card_image{
-    @apply w-full h-full object-cover rounded-t-[15px]
+    @apply w-full h-full object-fill object-top rounded-t-[15px]
 }
 
 .text_button{
@@ -79,7 +79,7 @@
 }
 
 .text_button > button{
-    @apply inline-block font-[500] font-montserrat px-5 py-3 text-[16px] rounded-[15px] drop-shadow-2xl mt-5 text-white bg-primary
+    @apply inline-block font-[500] font-montserrat px-5 py-3 text-[16px] rounded-[5px] drop-shadow-2xl mt-5 text-white bg-primary
 }
 
 .section_two_card_two{
