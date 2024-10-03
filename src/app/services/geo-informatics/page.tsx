@@ -80,11 +80,11 @@ export default function Services(){
                             <h1>Disaster Management</h1>
                         </Link>
                         <Link href='/services/geo-informatics' className={`${styles.card} bg-primary text-white`}>
-                            <Geoscience className={styles.icon}/>
+                            <Geoscience customStyle={styles.icon}/>
                             <h1>Geo-Informatics</h1>
                         </Link>
                         <Link href='/services/cadastral-mapping' className={styles.card}>
-                            <Geoscience className={styles.icon}/>
+                            <Geoscience customStyle={styles.icon}/>
                             <h1>Cadastral Mapping</h1>
                         </Link>
                     </div>

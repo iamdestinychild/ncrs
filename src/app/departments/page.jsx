@@ -53,7 +53,7 @@ export default function Department(){
                             <h1>ICT</h1>
                         </Link>
                         <Link href='' className={styles.card}>
-                            <Geoscience className={styles.icon}/>
+                            <Geoscience customStyle={styles.icon}/>
                             <h1>Geosciences</h1>
                         </Link>
                     </div>
