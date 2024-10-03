@@ -1,7 +1,7 @@
 "use client";
 import Users from "/public/icons/Users";
-import Download from "/icons/download";
-import Contact from "/icons/Contact";
+import Download from "../../public/icons/Download";
+import Contact from "../../public/icons/Contact";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

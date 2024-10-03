@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 import { useState } from 'react'
-import GalleryShowCard from '@/componets/galleryShowCard/gallerycard';
+import GalleryShowCard from '../galleryShowCard/gallerycard';
 import Image from 'next/image';
 
 
