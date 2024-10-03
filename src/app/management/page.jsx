@@ -21,102 +21,98 @@ export default function Management(){
                 </div>
             </section>
             <section className={styles.section_two}>
-                <div className={styles.section_two_container}>
-                    <h1 className={styles.section_two_container_heading}>Management <span>Team</span></h1>
-                    
-                    <div className={styles.section_two_single_card}>    
-                        <div className={styles.section_two_card}>
-                            <div className={`${styles.section_two_card_banner_cover} ${styles.single_card_banner}`}>
-                                <Image src="/images/person-1.jpg" className={styles.section_two_card_banner} alt='image' fill />
-                            </div>
-                            <div className={styles.section_two_card_text}>
-                                <h1>Barrack Obama</h1>
-                                <p>Managing Director</p>
-                            </div>
-                            <div className={styles.section_two_card_link_cover}>
-                            <Link href="#" className={styles.section_two_card_link}>View Profile</Link>
-                            </div>
+                <h1>Management TEAM</h1>
+                <div className={styles.section_two_card_one}>
+                    <div className={styles.card}>
+                        <div className={styles.card_image_cover}>
+                            <Image src='/images/person-1.jpg' alt='image' className={styles.card_image} fill />
+                        </div>
+                        <div className={styles.text_button}>
+                            <h1>Dashan Titus Dalohom</h1>
+                            <p>Managing Director</p>
+                            <button>View Profile</button>
+                        </div>
                     </div>
+                </div>
+                <div className={styles.section_two_card_two}>
+                    <div className={styles.card}>
+                        <div className={styles.card_image_cover}>
+                            <Image src='/images/director.jpg' alt='image' className={styles.card_image} fill />
+                        </div>
+                        <div className={styles.text_button}>
+                            <h1>Omolere O. Sesan</h1>
+                            <p>H.O.D. POLICY PLANNING AND RESEARCH</p>
+                            <button>View Profile</button>
+                        </div>
                     </div>
-                    
-
-                    <div className={styles.section_two_cards}>
-                        <div className={styles.section_two_card}>
-                            <div className={styles.section_two_card_banner_cover}>
-                                <Image src="/images/director.jpg" className={styles.section_two_card_banner} alt='image' fill />
-                            </div>
-                            <div className={styles.section_two_card_text}>
-                                <h1>Barrack Obama</h1>
-                                <p>Managing Director</p>
-                            </div>
-                            <div className={styles.section_two_card_link_cover}>
-                            <Link href="#" className={styles.section_two_card_link}>View Profile</Link>
-                            </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_image_cover}>
+                            <Image src='/images/person-2.jpg' alt='image' className={styles.card_image} fill />
                         </div>
-
-                        <div className={styles.section_two_card}>
-                            <div className={styles.section_two_card_banner_cover}>
-                                <Image src="/images/person-2.jpg" className={styles.section_two_card_banner} alt='image' fill />
-                            </div>
-                            <div className={styles.section_two_card_text}>
-                                <h1>Barrack Obama</h1>
-                                <p>Managing Director</p>
-                            </div>
-                            <div className={styles.section_two_card_link_cover}>
-                            <Link href="#" className={styles.section_two_card_link}>View Profile</Link>
-                            </div>
+                        <div className={styles.text_button}>
+                            <h1>Umar Suleiman</h1>
+                            <p>Assistant chief scientific officer</p>
+                            <button>View Profile</button>
                         </div>
-
-                        <div className={styles.section_two_card}>
-                            <div className={styles.section_two_card_banner_cover}>
-                                <Image src="/images/person-3.jpg" className={styles.section_two_card_banner} alt='image' fill />
-                            </div>
-                            <div className={styles.section_two_card_text}>
-                                <h1>Barrack Obama</h1>
-                                <p>Managing Director</p>
-                            </div>
-                            <div className={styles.section_two_card_link_cover}>
-                            <Link href="#" className={styles.section_two_card_link}>View Profile</Link>
-                            </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_image_cover}>
+                            <Image src='/images/person-3.jpg' alt='image' className={styles.card_image} fill />
                         </div>
-
-                        <div className={styles.section_two_card}>
-                            <div className={styles.section_two_card_banner_cover}>
-                                <Image src="/images/person-4.jpg" className={styles.section_two_card_banner} alt='image' fill />
-                            </div>
-                            <div className={styles.section_two_card_text}>
-                                <h1>Barrack Obama</h1>
-                                <p>Managing Director</p>
-                            </div>
-                            <div className={styles.section_two_card_link_cover}>
-                            <Link href="#" className={styles.section_two_card_link}>View Profile</Link>
-                            </div>
+                        <div className={styles.text_button}>
+                            <h1>Tallen Abubakar Sadiq</h1>
+                            <p>Head of Department</p>
+                            <button>View Profile</button>
                         </div>
-
-                        <div className={styles.section_two_card}>
-                            <div className={styles.section_two_card_banner_cover}>
-                                <Image src="/images/person-5.jpg" className={styles.section_two_card_banner} alt='image' fill />
-                            </div>
-                            <div className={styles.section_two_card_text}>
-                                <h1>Barrack Obama</h1>
-                                <p>Managing Director</p>
-                            </div>
-                            <div className={styles.section_two_card_link_cover}>
-                            <Link href="#" className={styles.section_two_card_link}>View Profile</Link>
-                            </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_image_cover}>
+                            <Image src='/images/person-4.jpg' alt='image' className={styles.card_image} fill />
                         </div>
-
-                        <div className={styles.section_two_card}>
-                            <div className={styles.section_two_card_banner_cover}>
-                                <Image src="/images/person-6.jpg" className={styles.section_two_card_banner} alt='image' fill />
-                            </div>
-                            <div className={styles.section_two_card_text}>
-                                <h1>Barrack Obama</h1>
-                                <p>Managing Director</p>
-                            </div>
-                            <div className={styles.section_two_card_link_cover}>
-                            <Link href="#" className={styles.section_two_card_link}>View Profile</Link>
-                            </div>
+                        <div className={styles.text_button}>
+                            <h1>Bitrus Pam Pwajok</h1>
+                            <p>Assistant Director</p>
+                            <button>View Profile</button>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_image_cover}>
+                            <Image src='/images/person-5.jpg' alt='image' className={styles.card_image} fill />
+                        </div>
+                        <div className={styles.text_button}>
+                            <h1>Joshua J. Iliya, PhD</h1>
+                            <p>Deputy Director</p>
+                            <button>View Profile</button>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_image_cover}>
+                            <Image src='/images/person-6.jpg' alt='image' className={styles.card_image} fill />
+                        </div>
+                        <div className={styles.text_button}>
+                            <h1>Dr Abbas Bolaji Adigun</h1>
+                            <p>HOD of ICT Department</p>
+                            <button>View Profile</button>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_image_cover}>
+                            <Image src='/images/person-7.jpg' alt='image' className={styles.card_image} fill />
+                        </div>
+                        <div className={styles.text_button}>
+                            <h1>Mr. Yehoshua G Nyamdang</h1>
+                            <p>Managing Director</p>
+                            <button>View Profile</button>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_image_cover}>
+                            <Image src='/images/person-8.jpg' alt='image' className={styles.card_image} fill />
+                        </div>
+                        <div className={styles.text_button}>
+                            <h1>Umar Suleiman</h1>
+                            <p>Chief Scientific Officer</p>
+                            <button>View Profile</button>
                         </div>
                     </div>
                 </div>

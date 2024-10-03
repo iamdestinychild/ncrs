@@ -1,0 +1,122 @@
+.department{
+
+}
+
+.hero{
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] 2xl:h-[90vh] relative
+}
+
+.hero_layer{
+    @apply h-full w-full absolute bg-[#0A0A0ABA]
+}
+
+.hero_content{
+    @apply w-full slg:w-[85%] 2xl:w-[60%] absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
+}
+
+.heading_one{
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
+}
+
+.heading_one > span{
+    @apply text-[#E85555]
+}
+
+.heading_two{
+    @apply text-[#FFF9F9] text-[17px] my-[0.5rem] slg:text-[22px] font-[600]
+}
+
+.hero_title_page{
+    @apply w-full
+}
+
+.title_cover{
+    @apply w-full bg-[#FFF] py-[0.5rem] pl-[0.5rem]
+}
+
+.title{
+    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+}
+
+.page_cover{
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+}
+
+.page{
+    @apply text-[23px] slg:text-[64px] font-[700] text-[#FFF]
+}
+
+.department_section_one{
+    @apply px-[1rem] mt-[1rem] mb-[3rem]
+}
+
+.department_section_one > h1{
+    @apply text-[20px] font-[500] text-[#1C5237] text-center
+}
+
+.department_section_one > p{
+    @apply text-[16px] font-[400] text-[#000] text-center mt-5
+}
+
+
+.department_section_one_link{
+    @apply bg-[#D52027] rounded-[10px] flex justify-evenly items-center w-[70%] my-[1rem] p-[1rem] mx-auto
+}
+
+.department_section_one_link > p{
+    @apply text-[20px] font-[500] text-[#FFFF]
+}
+
+.department_section_one_link_icon{
+    @apply size-6 text-[#FFFF]
+}
+
+
+.section_two{
+    @apply py-[2rem] px-[1rem] xl:py-[5rem] w-full
+}
+
+.section_two > h1{
+    @apply font-montserrat text-[20px] font-[700] slg:text-[30px] my-10
+}
+
+.section_two_inner{
+    @apply xl:w-[80%] mx-auto
+}
+
+.banner_cover{
+    @apply relative w-[200px] h-[200px] rounded-[15px] slg:w-[50%]
+}
+
+.content{
+    @apply slg:flex gap-4
+}
+
+.content > p{
+    @apply slg:w-[50%] text-[16px] font-jost font-[400]
+}
+
+.banner{
+    @apply w-full h-full object-fill rounded-[15px]
+}
+
+.card_image{
+    @apply object-fill aspect-video object-top w-full h-full rounded-t-[15px]
+}
+
+.card_image_cover{
+    @apply relative w-full h-[200px] rounded-t-[15px]
+}
+
+
+.card{
+    @apply w-[250px]  drop-shadow-lg my-[2rem] bg-white pb-[2rem] rounded-[15px]
+}
+
+.card_details > h1{
+    @apply text-[20px] font-montserrat font-[600] text-center my-2
+}
+
+.card_details > p{
+    @apply text-[16] font-jost font-[500] text-center my-2 text-center
+}
