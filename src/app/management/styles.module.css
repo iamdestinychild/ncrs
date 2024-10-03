@@ -47,7 +47,7 @@
 }
 
 .section_two > h1{
-    @apply font-montserrat font-[700] text-[30px]
+    @apply font-montserrat font-[700] text-[30px] text-center slg:text-[40px]
 }
 
 .section_two_card_one{
