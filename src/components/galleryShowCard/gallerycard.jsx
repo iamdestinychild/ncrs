@@ -6,14 +6,9 @@ import {gallery} from '../../../data'
 import { Cancel, Prev, Next } from "../IconsPalette"
 
 
-interface GalleryCardProp{
-    galleryState: Function,
-    image: string,
-    index: number
-}
 
 
-export default function GalleryShowCard({image, index, galleryState}:GalleryCardProp){
+export default function GalleryShowCard({image, index, galleryState}){
 
     const [currentImg, setCurrentImg] = useState(image)
     let [currentValue, setCurrentValue] = useState(index)

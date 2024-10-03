@@ -3,13 +3,8 @@ import { useState } from 'react'
 import GalleryShowCard from '@/componets/galleryShowCard/gallerycard';
 import Image from 'next/image';
 
-interface GalleryProp {
-    img: string,
-    alt: string,
-    index: number
-}
 
-export default function GalleryCard({img, alt, index}:GalleryProp){
+export default function GalleryCard({img, alt, index}){
     const [showCard, setShowCard] = useState(false)
 
     const showGallery = ()=>{
