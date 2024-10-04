@@ -29,28 +29,29 @@ export default function Services(){
             <section className={styles.section_two}>
                 <div className={styles.section_two_inner}>
                     <div className={styles.section_two_heading}>
-                        <h1>Forestry and Environment</h1>
-                        <p>Our Forestry and Environment service is dedicated to the sustainable management and conservation of Nigeria&apos;s forest resources and natural habitats.</p>
+                    <div className={styles.section_two_content_line}></div>
+                        <h1>Natural Resource Mapping</h1>
+                        <p>The National Centre for Remote Sensing provides detailed mapping and assessment of Nigeria's vast natural resources, utilizing cutting-edge remote sensing technology.</p>
                     </div>
                     <div className={styles.banner_text}>
                         <div className={styles.section_two_banner_container}>
-                            <Image src='/images/services-02.jpg' alt='image' className={styles.section_two_banner} fill/>
+                            <Image src='/images/services-03.jpg' alt='image' className={styles.section_two_banner} fill/>
                         </div>
                         <div className={styles.banner_text_content}>
                             <p className={styles.content_p}>We offer:</p>
                             <ul className={styles.content_list}>
-                                <li>Forest Monitoring: Use remote sensing to track deforestation, forest degradation, and changes in forest cover.</li>
-                                <li>Biodiversity Assessment: Evaluate the health and diversity of ecosystems using satellite data.</li>
-                                <li>Environmental Impact Studies: Conduct assessments to understand the impact of human activities on the environment.</li>
+                                <li>Mineral Mapping: Identify and map locations of   mineral deposits.</li>
+                                <li>Oil and Gas Exploration: Support the exploration and  monitoring of oil and gas resources.</li>
+                                <li>Resource Assessment: Evaluate the quantity and quality  of various natural resources.</li>
                             </ul>
                        </div>
                     </div>
                     <div className={styles.application}>
                         <h1>Applications</h1>
                         <ul>
-                            <li>Policy Implementation: Support the enforcement of environmental policies and regulations.</li>
-                            <li>Conservation Efforts: Aid in the planning and execution of conservation initiatives.</li>
-                            <li>Climate Change Mitigation: Provide data to support efforts in combating climate change.</li>
+                            <li>Resource Exploration: Facilitate the discovery and extraction of natural resources.</li>
+                            <li>Environmental Management: Ensure sustainable extraction practices to minimize environmental impact.</li>
+                            <li>Economic Development: Support national development through resource-based economic planning.</li>
                         </ul>
                     </div>
                     

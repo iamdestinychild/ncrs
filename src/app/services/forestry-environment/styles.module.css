@@ -39,7 +39,7 @@
 }
 
 .page{
-    @apply text-[36px] slg:text-[64px] font-[700] text-[#FFF]
+    @apply text-[36px] slg:text-[44px] font-[700] text-[#FFF]
 }
 
 
@@ -92,7 +92,7 @@
 }
 
 .section_two_heading > h1{
-    @apply font-montserrat font-[700] text-[25px] slg:text-[35px] my-2 text-center
+    @apply font-montserrat font-[700] text-[25px] slg:text-[35px] my-2 text-left
 }
 
 .section_two_heading > p{
@@ -141,4 +141,8 @@
 
 .impact > p{
     @apply font-jost font-[400] 
+}
+
+.section_two_content_line{
+    @apply w-[117px] h-[3px] bg-[#000] mb-5
 }

@@ -15,7 +15,7 @@ export default function Services(){
                 <div className={styles.hero_layer}></div>
                 <div className={styles.hero_content}>
                     <p className={styles.heading_one}>Home / <span>Services</span></p>
-                    <p className={styles.heading_two}>Our Visions, Mission and Our Team</p>
+                    {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
                     <div className={styles.hero_title_page}>
                         <div className={styles.title_cover}>
                             <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>

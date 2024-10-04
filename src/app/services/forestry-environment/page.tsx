@@ -15,7 +15,7 @@ export default function Services(){
                 <div className={styles.hero_layer}></div>
                 <div className={styles.hero_content}>
                     <p className={styles.heading_one}>Home / <span>Services</span></p>
-                    <p className={styles.heading_two}>Our Visions, Mission and Our Team</p>
+                    {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
                     <div className={styles.hero_title_page}>
                         <div className={styles.title_cover}>
                             <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
@@ -29,6 +29,7 @@ export default function Services(){
             <section className={styles.section_two}>
                 <div className={styles.section_two_inner}>
                     <div className={styles.section_two_heading}>
+                    <div className={styles.section_two_content_line}></div>
                         <h1>Forestry and Environment</h1>
                         <p>Our Forestry and Environment service is dedicated to the sustainable management and conservation of Nigeria&apos;s forest resources and natural habitats.</p>
                     </div>

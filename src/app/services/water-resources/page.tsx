@@ -17,9 +17,9 @@ export default function Services() {
           <p className={styles.heading_one}>
             Home / <span>Services</span>
           </p>
-          <p className={styles.heading_two}>
+          {/* <p className={styles.heading_two}>
             Our Visions, Mission and Our Team
-          </p>
+          </p> */}
           <div className={styles.hero_title_page}>
             <div className={styles.title_cover}>
               <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
@@ -33,6 +33,7 @@ export default function Services() {
       <section className={styles.section_two}>
         <div className={styles.section_two_inner}>
           <div className={styles.section_two_heading}>
+          <div className={styles.section_two_content_line}></div>
             <h1>Water Resources</h1>
             <p>
               The Centre&apos;s Water Resources focuses on the monitoring and

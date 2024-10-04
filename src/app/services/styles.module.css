@@ -39,7 +39,7 @@
 }
 
 .page{
-    @apply text-[36px] slg:text-[64px] font-[700] text-[#FFF]
+    @apply text-[36px] slg:text-[44px] font-[700] text-[#FFF]
 }
 
 
