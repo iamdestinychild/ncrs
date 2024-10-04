@@ -1,13 +1,10 @@
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const metadata= {
     title: "NCRS - About",
     description: "",
   };
 
-export default function AboutLayout({children}:Readonly<{
-    children: React.ReactNode;
-}>){
+export default function AboutLayout({children}){
     return(
         <div>
             {children}
