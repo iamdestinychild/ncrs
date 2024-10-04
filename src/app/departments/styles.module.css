@@ -100,3 +100,7 @@
 .icon{
     @apply size-12
 }
+
+.section_two_content_line{
+    @apply w-[117px] h-[3px] bg-[#000] mb-5
+  }

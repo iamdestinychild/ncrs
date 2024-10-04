@@ -30,6 +30,7 @@ export default function Department(){
             </section>
             <section className={styles.section_two}>
                 <div className={styles.section_two_inner}>
+                <div className={styles.section_two_content_line}></div>
                     <h1>Departments</h1>
                     <div className={styles.cards}>
                         <Link href='/departments/water-resources-climate' className={styles.card}>

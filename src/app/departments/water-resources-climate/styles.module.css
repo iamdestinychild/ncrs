@@ -120,3 +120,7 @@
 .card_details > p{
     @apply text-[16] font-jost font-[500] text-center my-2 text-center
 }
+
+.section_two_content_line{
+    @apply w-[117px] h-[3px] bg-[#000] mb-5
+}
