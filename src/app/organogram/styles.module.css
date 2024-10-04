@@ -43,7 +43,7 @@
 }
 
 .section_two{
-    @apply py-4 xlg:py-10
+    @apply py-4 xlg:py-10 px-5 slg:px-8 xl:px-12
 }
 
 .section_two_container{
@@ -51,7 +51,7 @@
 }
 
 .section_two_container_heading{
-    @apply text-[30px] xlg:text-[50px] xl:text-[60px] font-[700] text-center mb-4 xlg:mb-10 xl:mb-16
+    @apply text-[30px] xlg:text-[40px] xl:text-[40px] text-left font-[700] mb-4 xlg:mb-10 xl:mb-16
 }
 
 .section_two_banner_cover{
@@ -60,4 +60,8 @@
 
 .section_two_banner{
     @apply w-full h-full object-fill
+}
+
+.section_two_content_line{
+    @apply w-[117px] h-[3px] bg-[#000] mb-5
 }
