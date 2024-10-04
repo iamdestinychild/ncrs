@@ -1,5 +1,5 @@
 .hero{
-    @apply bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] relative
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] relative
 }
 
 .hero_layer{
@@ -39,7 +39,7 @@
 }
 
 .page{
-    @apply text-[26px] slg:text-[64px] font-[700] text-[#FFF]
+    @apply text-[26px] slg:text-[44px] font-[700] text-[#FFF]
 }
 
 .section_two{
@@ -51,10 +51,14 @@
 }
 
 .section_two_container > h1{
-    @apply text-[36px] font-[700] mb-[2rem] slg:mb-[3rem] slg:text-[64px] slg:text-center
+    @apply text-[36px] font-[700] mb-[2rem] slg:mb-[3rem] slg:text-[54px] slg:text-left
 }
 
 .section_two_cards{
     @apply grid grid-cols-1 slg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-[2rem]
 }
 
+
+.section_two_content_line{
+    @apply w-[117px] h-[3px] bg-[#000] mb-5
+}

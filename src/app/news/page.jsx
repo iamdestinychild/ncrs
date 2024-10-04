@@ -20,7 +20,7 @@ export default function News(){
                         <div className={styles.title_cover}>
                             <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
                         </div>
-                        <div className={styles.page_cover}>
+                            <div className={styles.page_cover}>
                             <h1 className={styles.page}>Latest News & Updates</h1>
                         </div>
                     </div>
