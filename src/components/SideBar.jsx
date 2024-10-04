@@ -65,7 +65,7 @@ export default function SideBar() {
               </Link>
             </li>
             <li>
-              <Link href="/labs" className={styles.sidebar_dropdown_link}>
+              <Link href="/laboratories" className={styles.sidebar_dropdown_link}>
                 Laboratories
               </Link>
             </li>
