@@ -67,7 +67,7 @@
 }
 
 .section_two_content > article > p{
-    @apply text-[16px] font-[500] text-[#666C89] my-[1rem]
+    @apply text-[16px] font-[500] text-black my-[1rem]
 }
 
 .section_two_banner_cover{

@@ -41,7 +41,8 @@ export default function about(){
             <section className={styles.section_three}>
                 <h1 className={styles.section_three_heading}>Core Values</h1>
                 <div className={styles.section_three_cards}>
-                    <div className={styles.section_three_card}>
+                        <div className={styles.section_three_card}>
+                            <div className={styles.blur}></div>
                         <div className={styles.section_three_card_banner_cover}>
                             <Image src='/images/img-03.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
                         </div>
@@ -50,7 +51,8 @@ export default function about(){
                         </div>
                     </div>
 
-                    <div className={styles.section_three_card}>
+                        <div className={styles.section_three_card}>
+                        <div className={styles.blur}></div>
                         <div className={styles.section_three_card_banner_cover}>
                             <Image src='/images/img-04.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
                         </div>
@@ -59,7 +61,8 @@ export default function about(){
                         </div>
                     </div>
 
-                    <div className={styles.section_three_card}>
+                        <div className={styles.section_three_card}>
+                        <div className={styles.blur}></div>
                         <div className={styles.section_three_card_banner_cover}>
                             <Image src='/images/img-05.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
                         </div>
@@ -68,7 +71,8 @@ export default function about(){
                         </div>
                     </div>
 
-                    <div className={styles.section_three_card}>
+                        <div className={styles.section_three_card}>
+                        <div className={styles.blur}></div>
                         <div className={styles.section_three_card_banner_cover}>
                             <Image src='/images/img-06.png' alt="image" className={styles.section_three_card_banner_cover} fill/>
                         </div>

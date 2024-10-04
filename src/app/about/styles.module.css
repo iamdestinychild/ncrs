@@ -72,7 +72,7 @@
 }
 
 .section_two_content > article > p{
-    @apply text-[16px] font-[500] text-[#666C89] my-[1rem]
+    @apply text-[16px] font-[500] text-black my-[1rem]
 }
 
 .section_two_banner_cover{
@@ -98,16 +98,21 @@
 .section_three_card{
     @apply w-full h-[230px] my-[2rem] relative rounded-[5px]
 }
+
+.blur{
+    @apply absolute top-0 left-0 w-full h-full bg-primary z-40 opacity-[0.35] rounded-[15px]
+}
+
 .section_three_card_banner_cover{
-    @apply absolute h-full w-full rounded-[5px]
+    @apply absolute h-full w-full rounded-[15px] z-30
 }
 
 .section_three_card_banner{
-    @apply w-full h-full object-fill rounded-[5px]
+    @apply w-full h-full object-fill rounded-[15px]
 }
 
 .section_three_card_heading_cover{
-    @apply h-full grid place-content-center text-center py-[0.5rem] relative
+    @apply relative h-full grid place-content-center text-center py-[0.5rem]  z-50
 }
 
 .section_three_card_heading{
@@ -122,7 +127,7 @@
     @apply grid grid-cols-1 slg:grid-cols-2 gap-x-5 gap-y-[2rem] w-full
 }
 
-.section_four_card{
+.section_four_card{ 
     @apply w-full xl:w-[70%]
 }
 
@@ -131,7 +136,7 @@
 }
 
 .section_four_card > article{
-    @apply h-[250px] p-[2rem]
+    @apply h-[250px] p-[2rem] rounded-[15px] 
 }
 
 .section_four_card:nth-child(1) > article{
