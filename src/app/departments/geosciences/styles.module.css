@@ -77,7 +77,7 @@
 }
 
 .section_two_inner > h1{
-    @apply font-montserrat text-[20px] slg:text-[30px] font-[700] text-center mb-10
+    @apply font-montserrat text-[20px] text-center slg:text-[30px] font-[700]  mb-10
 }
 
 .section_two_inner{
@@ -126,7 +126,7 @@
 }
 
 .unit_cover{
-    @apply max-w-[300px]
+    @apply max-w-[200px]
 }
 
 .unit_cover > h1{

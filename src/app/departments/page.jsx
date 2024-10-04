@@ -36,23 +36,23 @@ export default function Department(){
                             <Water customStyle={styles.icon}/>
                             <h1>Water resources & Climate</h1>
                         </Link>
-                        <Link href='' className={styles.card}>
+                        <Link href='/departments/ground-receiving-station' className={styles.card}>
                             <Station customStyle={styles.icon} />
                             <h1>Ground Receiving Station</h1>
                         </Link>
-                        <Link href='' className={styles.card}>
+                        <Link href='/departments/procurement' className={styles.card}>
                             <Procurement customStyle={styles.icon} />
                             <h1>Procurement</h1>
                         </Link>
-                        <Link href='' className={styles.card}>
+                        <Link href='/departments/policy-planning-research' className={styles.card}>
                             <Station customStyle={styles.icon} />
                             <h1>Policy, Planning and Research</h1>
                         </Link>
-                        <Link href='' className={styles.card}>
+                        <Link href='/departments/ict' className={styles.card}>
                             <Procurement customStyle={styles.icon} />
                             <h1>ICT</h1>
                         </Link>
-                        <Link href='' className={styles.card}>
+                        <Link href='/departments/geosciences' className={styles.card}>
                             <Geoscience customStyle={styles.icon}/>
                             <h1>Geosciences</h1>
                         </Link>
@@ -62,4 +62,3 @@ export default function Department(){
         </main>
     )
 }
-

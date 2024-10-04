@@ -26,14 +26,13 @@ export default function Department() {
       </section>
       <section className={styles.section_two}>
         <div className={styles.section_two_inner}>
-          <h1>GROUND RECEIVING STATION</h1>
+          <h1>PROCUREMENT</h1>
           <div className={styles.content}>
             
-            <p>
-            The Ground Receiving Station is saddled with the responsibility of tracking various satellites for the purpose of obtaining data for various areas of applications. This department is also charged with the mandate to archive satellite data as well as other scientific data for research; all scientific/technical project findings and publications are equally housed here. Pre-Processing, Processing and value addition processes of raw satellite data are carried out.</p>
+            <p>The Procurement Department of the Centre is responsible for overseeing all processes involved in acquiring goods, services, and works to ensure efficient business operations and value for money. It consists of units focused on procurement records, price intelligence, and procurement planning. Key functions include sourcing suppliers, negotiating terms, managing contracts, fostering supplier relationships, mitigating supply chain risks, ensuring quality, controlling costs, and processing payments. The department&apos;s objectives are to reduce costs, improve quality, strengthen vendor relationships, manage risks, and promote innovation and sustainability.</p>
             <div className={styles.banner_cover}>
               <Image
-                src="/images/img-21.jpg"
+                src="/images/img-22.jpg"
                 alt="image"
                 className={styles.banner}
                 fill
@@ -60,19 +59,15 @@ export default function Department() {
               <div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>Satellite Data Management</p>
+                  <p>Procurement Record and Documentation</p>
                 </div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>Ground Receiving Station Operations</p>
+                  <p>Price Intelligence and Monitoring</p>
                 </div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>System Engineering.</p>
-                </div>
-                <div className={styles.button_text}>
-                  <RadioIcon customStyle={styles.icon} />
-                  <p>ICT/Artificial Intelligence</p>
+                  <p>Procurement Planning</p>
                 </div>
               </div>
             </div>

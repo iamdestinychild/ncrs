@@ -9,41 +9,41 @@ export default function Whatwedo() {
         <div className={styles.whatwedo_content_container}>
           <div className={styles.content}>
             <BulletPoint />
-            <Link href=''>Satellite Data Services</Link>
+            <p>Satellite Data Services</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <Link href=''>Natural Resource Mapping</Link>
+            <p>Natural Resource Mapping</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <Link href=''>Forestry and Environment</Link>
+            <p>Forestry and Environment</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <Link href=''>Cadastral Mapping</Link>
+            <p>Cadastral Mapping</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <Link href=''>Water Resources</Link>
+            <p>Water Resources</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <Link href=''>Urban and Rural Planning and Development</Link>
+            <p>Urban and Rural Planning and Development</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <Link href=''>Disaster Management</Link>
+            <p >Disaster Management</p>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <Link href=''>Ecological & Climate Studies</Link>
+            <p >Ecological & Climate Studies</p>
           </div>
         </div>
         <div className={styles.learn_more_container}>
-        <Link className={styles.learnMore} href="/about">
+        <p className={styles.learnMore} href="/about">
           Learn More
-        </Link>
+        </p>
         </div>
       </div>
     </div>

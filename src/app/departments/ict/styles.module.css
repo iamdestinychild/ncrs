@@ -76,16 +76,16 @@
     @apply py-[2rem] px-[1rem] xl:py-[5rem] w-full
 }
 
-.section_two_inner > h1{
-    @apply font-montserrat text-[20px] slg:text-[30px] font-[700] text-center mb-10
+.section_two > h1{
+    @apply font-montserrat text-[20px] font-[700] slg:text-[30px] my-10
 }
 
 .section_two_inner{
-    @apply xl:w-[80%] mx-auto h-auto
+    @apply xl:w-[80%] mx-auto
 }
 
 .banner_cover{
-    @apply relative w-[200px] h-[200px] slg:h-auto rounded-[15px] slg:w-[50%]
+    @apply relative w-[200px] h-[200px] rounded-[15px] slg:w-[50%]
 }
 
 .content{
@@ -114,30 +114,9 @@
 }
 
 .card_details > h1{
-    @apply text-[20px] mb-[2rem] font-montserrat font-[600] text-center my-2
+    @apply text-[20px] font-montserrat font-[600] text-center my-2
 }
 
 .card_details > p{
-    @apply text-[16] font-jost font-[500] text-center my-2
-}
-
-.card_unit{
-    @apply slg:flex justify-between items-center xlg:w-[80%]
-}
-
-.unit_cover{
-    @apply max-w-[300px]
-}
-
-.unit_cover > h1{
-    @apply font-montserrat font-[700] text-[20px] slg:text-[30px] text-center
-}
-
-.button_text{
-    @apply flex justify-start items-center gap-y-5 gap-x-4
-}
-
-
-.button_text > p{
-   @apply text-[16px] font-jost 
+    @apply text-[16] font-jost font-[500] text-center my-2 text-center
 }

@@ -37,3 +37,15 @@
 .icon_next{
     @apply size-10
 }
+
+.details{
+    @apply absolute bottom-0 w-full text-center py-5
+}
+
+.details > h1{
+    @apply text-white relative
+}
+
+.details_blur{
+    @apply absolute bottom-0 w-full py-10  opacity-[0.45] rounded-b-[15px] bg-primary
+}

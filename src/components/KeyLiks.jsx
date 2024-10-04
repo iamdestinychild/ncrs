@@ -61,7 +61,7 @@ export default function KeyLink() {
     <div className={styles.keylink}>
       <h1 className={styles.keylink_heading}>KeyLinks</h1>
       <Slider {...settings} className={styles.keylink_slider}>
-        <Link href='' className={styles.keylink_slide}>
+        <Link href='/management' className={styles.keylink_slide}>
             <div className={styles.blur}></div>
           <div className={styles.keylink_slide_inner}>
             <div className={styles.icon_container}>
@@ -73,7 +73,7 @@ export default function KeyLink() {
             </div>
           </div>
         </Link>
-        <Link href='' className={styles.keylink_slide}>
+        <Link href='/Downloads' className={styles.keylink_slide}>
         <div className={styles.blur}></div>
           <div className={styles.keylink_slide_inner}>
             <div className={styles.icon_container}>
@@ -85,7 +85,7 @@ export default function KeyLink() {
             </div>
           </div>
         </Link>
-        <Link href='' className={styles.keylink_slide}>
+        <Link href='/contact' className={styles.keylink_slide}>
         <div className={styles.blur}></div>
           <div className={styles.keylink_slide_inner}>
             <div className={styles.icon_container}>

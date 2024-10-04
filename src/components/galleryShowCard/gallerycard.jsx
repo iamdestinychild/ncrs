@@ -52,6 +52,10 @@ export default function GalleryShowCard({image, index, galleryState}){
                 <div className={styles.gallery_card}>
                     <div className={styles.gallery_card_banner_cover}>
                         <Image src={currentImg} alt="image" className={styles.gallery_card_banner} fill/>
+                        <div className={styles.details}>
+                            <div className={styles.details_blur}></div>
+                    <h1>New Development of SAT5 Satellite...</h1>
+                </div>
                     </div>
                 </div>
             <div className={styles.gallery_card_pagination}>
@@ -61,7 +65,8 @@ export default function GalleryShowCard({image, index, galleryState}){
                 <div onClick={()=>next()}>
                     <Next iconStyle={styles.icon_next}/>
                 </div>
-            </div>
+                </div>
+               
             </div>
         </main>
     )

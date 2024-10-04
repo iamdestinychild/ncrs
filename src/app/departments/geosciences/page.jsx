@@ -26,11 +26,27 @@ export default function Department() {
       </section>
       <section className={styles.section_two}>
         <div className={styles.section_two_inner}>
-          <h1>GROUND RECEIVING STATION</h1>
+          <h1>Geosciences</h1>
           <div className={styles.content}>
-            
             <p>
-            The Ground Receiving Station is saddled with the responsibility of tracking various satellites for the purpose of obtaining data for various areas of applications. This department is also charged with the mandate to archive satellite data as well as other scientific data for research; all scientific/technical project findings and publications are equally housed here. Pre-Processing, Processing and value addition processes of raw satellite data are carried out.</p>
+              The Department of Geosciences at the National Centre for Remote
+              Sensing (NCRS) is significantly advancing the understanding and
+              application of remote sensing technologies in Earth sciences.
+              Through satellite data, the department focuses on identifying
+              hazards, locating mineral resources, and studying landforms. Key
+              achievements include groundbreaking research in natural resource
+              management, such as geohazard and structural mapping, mineral
+              exploration, and environmental geology. The department has
+              published high-impact papers and developed innovative
+              methodologies for image processing and spatial analysis.
+              Collaborative efforts with international institutions have
+              furthered their contribution to climate change, disaster
+              management, and sustainable development projects. Ongoing
+              initiatives include studies on abandoned mine pits, geohazards,
+              and harmful elements in drinking water sources. The department
+              remains committed to scientific excellence, technological
+              innovation, and addressing contemporary environmental challenges.{" "}
+            </p>
             <div className={styles.banner_cover}>
               <Image
                 src="/images/img-21.jpg"
@@ -60,19 +76,19 @@ export default function Department() {
               <div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>Satellite Data Management</p>
+                  <p>Mineral Exploration</p>
                 </div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>Ground Receiving Station Operations</p>
+                  <p>Geophysics</p>
                 </div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>System Engineering.</p>
+                  <p>Hydrogeology</p>
                 </div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>ICT/Artificial Intelligence</p>
+                  <p>Environmental Geology</p>
                 </div>
               </div>
             </div>

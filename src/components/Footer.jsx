@@ -10,12 +10,12 @@ export default function Footer() {
           <p>consultancy.ncrs.gov.ng</p>
           <h1>Zonal Laboratories</h1>
           <ul>
-            <li>COPINE</li>
-            <li>Uyo</li>
-            <li>Kashere</li>
-            <li>Kano</li>
-            <li>Abakiliki</li>
-            <li>Lantang</li>
+            <Link href="/laboratories/corporative-Information-network">COPINE</Link>
+            <Link href='/laboratories/avanced-space-technology-application-laboratory-uyo'>Uyo</Link>
+            <Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-kashere'>Kashere</Link>
+            <Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-kashere'>Kano</Link>
+            <Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki'>Abakiliki</Link>
+            <Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-langtang'>Lantang</Link>
           </ul>
         </section>
         <section className={styles.section}>

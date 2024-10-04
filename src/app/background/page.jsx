@@ -8,13 +8,13 @@ export default function OurBackground(){
                 <div className={styles.hero_layer}></div>
                 <div className={styles.hero_content}>
                     <p className={styles.heading_one}>Home / <span>About NCRS</span></p>
-                    <p className={styles.heading_two}>Our Visions, Mission and Our Team</p>
+                    {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
                     <div className={styles.hero_title_page}>
                         <div className={styles.title_cover}>
                             <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
                         </div>
                         <div className={styles.page_cover}>
-                            <h1 className={styles.page}>OUR BACKGROUND</h1>
+                            <h1 className={styles.page}>Our Bacground</h1>
                         </div>
                     </div>
                 </div>
