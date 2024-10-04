@@ -31,7 +31,7 @@ export default function Services(){
                     <div className={styles.section_two_heading}>
                     <div className={styles.section_two_content_line}></div>
                         <h1>Natural Resource Mapping</h1>
-                        <p>The National Centre for Remote Sensing provides detailed mapping and assessment of Nigeria's vast natural resources, utilizing cutting-edge remote sensing technology.</p>
+                        <p>The National Centre for Remote Sensing provides detailed mapping and assessment of Nigeria&apos;s vast natural resources, utilizing cutting-edge remote sensing technology.</p>
                     </div>
                     <div className={styles.banner_text}>
                         <div className={styles.section_two_banner_container}>
