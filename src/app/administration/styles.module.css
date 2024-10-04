@@ -107,7 +107,7 @@
 }
 
 .section_three{
-    @apply relative h-[60vh] md:h-[40vh] slg:h-auto bg-bg-03 bg-cover bg-no-repeat
+    @apply relative h-[60vh] md:h-[40vh] slg:h-auto bg_03 bg-cover bg-no-repeat
 }
 
 .section_three_layer{
