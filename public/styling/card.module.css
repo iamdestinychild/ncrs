@@ -1,0 +1,51 @@
+
+.card{
+    @apply relative transition-all duration-300 ease-in-out rounded-[5px] max-w-[350px] shadow-lg pb-3 overflow-y-hidden
+}
+
+.card_image_cover{
+    @apply relative w-full h-[300px]
+}
+
+.card_image{
+    @apply object-fill w-full h-auto
+}
+
+.profile{
+    @apply w-full px-2 my-2
+}
+
+
+.title_icon{
+    @apply w-full flex justify-between items-center
+}
+
+.profile > h1{
+    @apply font-jost font-[700] text-[19px]
+}
+
+.title_icon > p{
+    @apply font-jost font-[500] text-[16px]
+}
+
+.card_details{
+    @apply mt-4 px-2 
+}
+
+.card_details > p{
+    @apply font-jost font-[500] text-[16px]
+}
+
+.icon{
+    @apply size-6
+}
+
+.open {
+    max-height: auto;
+    opacity: 1;
+  }
+  
+  .closed {
+    max-height: 0;
+    opacity: 0;
+  }

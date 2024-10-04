@@ -1,4 +1,5 @@
 import styles from "../../public/styling/footer.module.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -20,12 +21,14 @@ export default function Footer() {
         <section className={styles.section}>
           <h1>Quick Links</h1>
           <ul>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Recent Programs</li>
-            <li>News</li>
-            <li>Contact Us</li>
-            <li>Consultancy</li>
+            <li>
+              <Link href='/about'>About Us</Link></li>
+            <li>
+              <Link href='/services'>Services</Link></li>
+            {/* <li><Link href='/'>Recent Programs</Link></li> */}
+            <li><Link href='/news'>News</Link></li>
+            <li> <Link href='/contact'>Contact Us</Link></li>
+            <li><Link href='https://geosmartdigital.netlify.app/'>Consultancy</Link></li>
           </ul>
         </section>
         <section className={styles.section}>
@@ -42,9 +45,9 @@ export default function Footer() {
         </section>
         <section className={styles.section}>
           <h1>NCRS HQ</h1>
-          <p>Address: Corporate Office: Rizek Village along Fobor Road</p>
+          <p>Address: Corporate Office: Rizek Village along Fobor Road Jos East LGA </p>
           <p>
-            Jos East LGA Annex: Km 11, Jos-Bukuru Express Way, P.M.B 2136 Jos
+            Annex: Km 11, Jos-Bukuru Express Way, P.M.B 2136 Jos
           </p>
 
           <ul>

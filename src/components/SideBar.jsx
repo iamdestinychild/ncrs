@@ -100,7 +100,7 @@ export default function SideBar() {
           </ul>
         </DropDown>
         <li>
-          <Link href="/consultancy" className={styles.sidebar_dropdown_link}>
+          <Link href="https://geosmartdigital.netlify.app/" target="blank" className={styles.sidebar_dropdown_link}>
             Consultancy
           </Link>
         </li>

@@ -100,11 +100,11 @@
 }
 
 .blur{
-    @apply absolute top-0 left-0 w-full h-full bg-primary z-40 opacity-[0.35] rounded-[15px]
+    @apply absolute top-0 left-0 w-full h-full bg-primary z-20 opacity-[0.35] rounded-[15px]
 }
 
 .section_three_card_banner_cover{
-    @apply absolute h-full w-full rounded-[15px] z-30
+    @apply absolute h-full w-full rounded-[15px] z-10
 }
 
 .section_three_card_banner{
@@ -112,7 +112,7 @@
 }
 
 .section_three_card_heading_cover{
-    @apply relative h-full grid place-content-center text-center py-[0.5rem]  z-50
+    @apply relative h-full grid place-content-center text-center py-[0.5rem]  z-30
 }
 
 .section_three_card_heading{

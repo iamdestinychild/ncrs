@@ -1,28 +1,36 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 import Link from "next/link";
+import ChevronRight from "../../../public/icons/ChevronRight";
+import { cards, card } from "../../../data";
+import Card from '../../components/Card'
 
-export default function Management(){
-    return(
-        <main>
-            <section className={styles.hero}>
-                <div className={styles.hero_layer}></div>
-                <div className={styles.hero_content}>
-                    <p className={styles.heading_one}>Home / <span>About NCRS</span></p>
-                    <p className={styles.heading_two}>Our Visions, Mission and Our Team</p>
-                    <div className={styles.hero_title_page}>
-                        <div className={styles.title_cover}>
-                            <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
-                        </div>
-                        <div className={styles.page_cover}>
-                            <h1 className={styles.page}>Management Team</h1>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className={styles.section_two}>
-                <h1>Management TEAM</h1>
-                <div className={styles.section_two_card_one}>
+export default function Management() {
+
+  return (
+    <main>
+      <section className={styles.hero}>
+        <div className={styles.hero_layer}></div>
+        <div className={styles.hero_content}>
+          <p className={styles.heading_one}>
+            Home / <span>About NCRS</span>
+          </p>
+          {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
+          <div className={styles.hero_title_page}>
+            <div className={styles.title_cover}>
+              <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
+            </div>
+            <div className={styles.page_cover}>
+              <h1 className={styles.page}>Management Team</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.section_two}>
+        <h1>Management TEAM</h1>
+        {/* <div className={styles.section_two_card_one}>
                     <div className={styles.card}>
                         <div className={styles.card_image_cover}>
                             <Image src='/images/person-1.jpg' alt='image' className={styles.card_image} fill />
@@ -115,8 +123,17 @@ export default function Management(){
                             <button>View Profile</button>
                         </div>
                     </div>
-                </div>
-            </section>
-        </main>
-    )
+                </div> */}
+        <div className={styles.section_two_card_one}>
+            <Card card={card} />
+        </div>
+
+        <div className={styles.section_two_card_two}>
+          {cards.map((card, index) => (
+              <Card card={card} key={index} />
+          ))}
+        </div>
+      </section>
+    </main>
+  );
 }

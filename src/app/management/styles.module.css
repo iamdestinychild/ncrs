@@ -54,17 +54,8 @@
     @apply my-[3rem] grid place-content-center w-full
 }
 
-.card{
-    @apply max-w-[300px] pb-5 bg-white rounded-[15px]
-}
 
-.card_image_cover{
-    @apply relative w-full h-[200px]
-}
 
-.card_image{
-    @apply w-full h-full object-fill object-top rounded-t-[15px]
-}
 
 .text_button{
     @apply my-3 text-center
@@ -83,5 +74,5 @@
 }
 
 .section_two_card_two{
-    @apply grid grid-cols-1 slg:grid-cols-2 xlg:grid-cols-3 xl:grid-cols-4 gap-y-10 mx-auto
+    @apply grid grid-cols-1 slg:grid-cols-2 xlg:grid-cols-3 mx-auto slg:gap-x-1 gap-y-10 mx-auto
 }

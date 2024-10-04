@@ -1,5 +1,5 @@
 .nav{
-    @apply bg-white px-[1rem] slg:py-[1rem] sticky top-0 z-50 drop-shadow-md w-full
+    @apply bg-white px-[1rem] slg:py-[1rem] sticky top-0 z-[100] drop-shadow-md w-full
 }
 
 .nav_inner{
