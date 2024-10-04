@@ -28,7 +28,7 @@ export default function CorporativeInformationNetwork(){
                 </div>
             </section>
             <section className={styles.section_three}>
-                <h1 className={styles.section_three_heading}>COORDINATORS</h1>
+                <h1 className={styles.section_three_heading}>Coordinators</h1>
                 <div className={styles.section_three_container}>
                     <div className={styles.section_three_cards}>
                         <div className={styles.section_three_card}>

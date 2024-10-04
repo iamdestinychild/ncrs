@@ -55,7 +55,7 @@
 }
 
 .section_two_heading{
-    @apply text-[20px] slg:text-[30px] xl:text-[40px] font-[600] leading-normal text-center my-[1rem]
+    @apply text-[20px] slg:text-[30px] xl:text-[40px] font-[600] leading-normal text-left my-[1rem]
 }
 
 .section_two_parapgrah{

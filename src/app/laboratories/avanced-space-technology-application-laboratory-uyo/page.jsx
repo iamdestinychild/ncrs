@@ -28,12 +28,12 @@ export default function CorporativeInformationNetwork(){
                 </div>
             </section>
             <section className={styles.section_three}>
-                <h1 className={styles.section_three_heading}>COORDINATORS</h1>
+                <h1 className={styles.section_three_heading}>Coordinators</h1>
                 <div className={styles.section_three_container}>
                     <div className={styles.section_three_cards}>
                         <div className={styles.section_three_card}>
                             <div className={styles.section_three_card_banner_cover}>
-                                <Image src='/img/img-01.jpg' alt='img' className={styles.section_three_card_banner} fill />
+                                <Image src='/images/director-2.jpg' alt='img' className={styles.section_three_card_banner} fill />
                             </div>
                             <div className={styles.section_three_card_content}>
                                 <h1>Dr Kenneth Uchua</h1>
