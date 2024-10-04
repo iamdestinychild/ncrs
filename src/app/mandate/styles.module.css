@@ -50,7 +50,7 @@
 }
 
 .section_two_container > h1{
-  @apply font-montserrat font-[700] text-[16px] slg:text-[30px]
+  @apply font-montserrat font-[700] text-[16px] slg:text-[30px] xl:text-[40px]
 }
 
 .section_two_container > p{
@@ -62,13 +62,17 @@
 }
 
 .content{
-  @apply flex items-start
+  @apply flex items-center justify-start gap-x-2
 }
 
 .content > p{
   @apply  font-jost font-[16px] slg:font-[20px]
 }
 
-/* .icon{
-  @apply size-5
-} */
+.icon{
+  @apply min-w-[10%]
+}
+
+.section_two_content_line{
+  @apply w-[117px] h-[3px] bg-[#000] mb-5
+}

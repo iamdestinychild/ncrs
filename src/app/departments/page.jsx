@@ -20,7 +20,7 @@ export default function Department(){
                     {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
                     <div className={styles.hero_title_page}>
                         <div className={styles.title_cover}>
-                            <p className={styles.title}>Our divisions and functions</p>
+                            <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
                         </div>
                         <div className={styles.page_cover}>
                             <h1 className={styles.page}>Departments</h1>

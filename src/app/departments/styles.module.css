@@ -39,8 +39,9 @@
 }
 
 .page_cover{
-    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem] text-left
 }
+
 
 .page{
     @apply text-[23px] slg:text-[64px] font-[700] text-[#FFF]
@@ -81,7 +82,7 @@
 }
 
 .section_two_inner > h1{
-    @apply font-montserrat font-[700] text-[16px] slg:text-[40px] text-center
+    @apply font-montserrat font-[700] text-[16px] slg:text-[40px] text-left
 }
 
 .cards{
