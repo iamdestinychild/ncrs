@@ -29,6 +29,7 @@ export default function Management() {
         </div>
       </section>
       <section className={styles.section_two}>
+      <div className={styles.section_two_content_line}></div>
         <h1>Management TEAM</h1>
         {/* <div className={styles.section_two_card_one}>
                     <div className={styles.card}>

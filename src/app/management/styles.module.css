@@ -47,7 +47,7 @@
 }
 
 .section_two > h1{
-    @apply font-montserrat font-[700] text-[30px] text-center slg:text-[40px]
+    @apply font-montserrat font-[700] text-[30px] text-left slg:text-[40px]
 }
 
 .section_two_card_one{
@@ -55,7 +55,9 @@
 }
 
 
-
+.section_two_content_line{
+    @apply w-[117px] h-[3px] bg-[#000] mb-5
+}
 
 .text_button{
     @apply my-3 text-center
