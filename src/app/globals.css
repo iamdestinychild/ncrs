@@ -1,3 +1,5 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,6 +30,6 @@
 
 }
 
-/* .slick-slide > div{
-  @apply mx-2
-} */
+.keylink_slide slick-slide > div{
+  @apply mx-4
+}

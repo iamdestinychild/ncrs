@@ -18,8 +18,8 @@
     @apply flex justify-start items-center my-1
 }
 
-.content > p {
-    @apply font-jost text-[16px] slg:text-[20px] font-[600] text-white
+.content > a {
+    @apply hover:text-secondary  font-jost text-[16px] slg:text-[20px] font-[600] text-white
 }
 
 .learn_more_container{

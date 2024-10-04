@@ -2,10 +2,12 @@
 import Users from "/public/icons/Users";
 import Download from "../../public/icons/Download";
 import Contact from "../../public/icons/Contact";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Slider from "@ant-design/react-slick";
 import styles from "/public/styling/keylinks.module.css";
+import Link from "next/link";
 
 export default function KeyLink() {
   const settings = {
@@ -54,11 +56,13 @@ export default function KeyLink() {
     ],
   };
 
+
   return (
     <div className={styles.keylink}>
       <h1 className={styles.keylink_heading}>KeyLinks</h1>
       <Slider {...settings} className={styles.keylink_slider}>
-        <div className={styles.keylink_slide}>
+        <Link href='' className={styles.keylink_slide}>
+            <div className={styles.blur}></div>
           <div className={styles.keylink_slide_inner}>
             <div className={styles.icon_container}>
               <Users customStyle={styles.icon} />
@@ -68,8 +72,9 @@ export default function KeyLink() {
               <h1>Meet our Management</h1>
             </div>
           </div>
-        </div>
-        <div className={styles.keylink_slide}>
+        </Link>
+        <Link href='' className={styles.keylink_slide}>
+        <div className={styles.blur}></div>
           <div className={styles.keylink_slide_inner}>
             <div className={styles.icon_container}>
               <Download customStyle={styles.icon} />
@@ -79,8 +84,9 @@ export default function KeyLink() {
               <h1>Downloadable Resources</h1>
             </div>
           </div>
-        </div>
-        <div className={styles.keylink_slide}>
+        </Link>
+        <Link href='' className={styles.keylink_slide}>
+        <div className={styles.blur}></div>
           <div className={styles.keylink_slide_inner}>
             <div className={styles.icon_container}>
               <Contact customStyle={styles.icon} />
@@ -90,7 +96,7 @@ export default function KeyLink() {
               <h1>Get in Touch with us</h1>
             </div>
           </div>
-        </div>
+        </Link>
       </Slider>
     </div>
   );

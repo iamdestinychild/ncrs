@@ -9,35 +9,35 @@ export default function Whatwedo() {
         <div className={styles.whatwedo_content_container}>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Satellite Data Services</p>
+            <Link href=''>Satellite Data Services</Link>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Natural Resource Mapping</p>
+            <Link href=''>Natural Resource Mapping</Link>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Forestry and Environment</p>
+            <Link href=''>Forestry and Environment</Link>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Cadastral Mapping</p>
+            <Link href=''>Cadastral Mapping</Link>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Water Resources</p>
+            <Link href=''>Water Resources</Link>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Urban and Rural Planning and Development</p>
+            <Link href=''>Urban and Rural Planning and Development</Link>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Disaster Management</p>
+            <Link href=''>Disaster Management</Link>
           </div>
           <div className={styles.content}>
             <BulletPoint />
-            <p>Ecological & Climate Studies</p>
+            <Link href=''>Ecological & Climate Studies</Link>
           </div>
         </div>
         <div className={styles.learn_more_container}>

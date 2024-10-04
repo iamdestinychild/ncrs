@@ -17,7 +17,7 @@
 }
 
 .content{
-    @apply slg:w-[60%]
+    @apply xlg:w-[60%]
 }
 
 .content_heading{
@@ -41,5 +41,5 @@
 }
 
 .learn_more{
-    @apply text-white bg-primary text-base py-[1rem] px-[2rem] font-[600] inline-block rounded-[5px]
+    @apply text-white bg-primary hover:bg-secondary text-base py-[1rem] px-[2rem] font-[600] inline-block rounded-[5px]
 }

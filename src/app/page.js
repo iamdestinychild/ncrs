@@ -1,6 +1,6 @@
 import Greeting from "../components/Greeting";
-import Hero from "../components/hero/Hero";
 import KeyLink from "../components/KeyLiks";
+import Hero from "../components/Hero"
 import Laboratories from "../components/Laboratories";
 import Image from "next/image";
 import NewsLetter from "./newsletter/NewsLetter";
@@ -18,7 +18,7 @@ export default function Home() {
       <Whatwedo />
       <ProgramsSlide />
       <BlogSlide />
-      <NewsLetter />
+      {/* <NewsLetter /> */}
     </>
   );
 }

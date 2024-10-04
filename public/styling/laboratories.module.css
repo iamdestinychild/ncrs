@@ -11,7 +11,7 @@
 }
 
 .card{
-    @apply rounded-[15px] relative min-w-[100px] h-full p-5
+    @apply cursor-pointer  transition-transform ease-in-out duration-300 rounded-[15px] relative min-w-[100px] h-full p-5 hover:scale-[1.1]
 }
 
 .card_image{
