@@ -76,8 +76,8 @@
     @apply py-[2rem] px-[1rem] xl:py-[5rem] w-full
 }
 
-.section_two > h1{
-    @apply font-montserrat text-[20px] font-[700] slg:text-[30px] my-10
+.section_two_inner > h1{
+    @apply font-montserrat text-[20px] font-[700] slg:text-[30px] xl:text-[40px] mb-10
 }
 
 .section_two_inner{
