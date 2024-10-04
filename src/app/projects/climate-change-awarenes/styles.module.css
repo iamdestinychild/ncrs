@@ -1,0 +1,46 @@
+.main{
+    @apply px-4
+}
+
+.container{
+    @apply my-20 slg:w-[70%] mx-auto
+}
+
+.container{
+    @apply text-center font-montserrat font-[700] text-[25px]
+}
+
+.container > h1{
+    @apply font-montserrat font-[700] text-[20px] xlg-max:text-[40px] xl:text-[40px]
+}
+
+.image_container{
+    @apply relative w-full h-[20vh] xlg-max:h-[50vh] rounded-[15px] xl:text-[40px]
+}
+
+.image{
+    @apply object-cover w-full h-full rounded-[15px]
+}
+
+.title_small{
+    @apply w-full flex justify-between text-center
+}
+
+
+
+.title_small > p{
+    @apply font-montserrat font-[500] text-[16px] my-2
+}
+
+.title_small > p::nthchild(1){
+    @apply text-secondary
+}
+
+
+.dash{
+    @apply h-[2px] w-full bg-black my-4
+}
+
+.article{
+    @apply font-jost text-[16px] font-[400] text-left
+}
