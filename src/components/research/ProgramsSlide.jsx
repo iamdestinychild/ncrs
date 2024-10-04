@@ -34,7 +34,7 @@ export default function ProgramsSlide(){
                 <div className={styles.programs_card_content}>
                   <p className="text-[18px]">Climate Change  Awareness Campaign</p>
                   <div className={styles.programs_card_content_link_cover}>
-                    <Link href="#" className={styles.programs_card_content_link}>Learn More</Link>
+                    <Link href="/projects/climate-change-awarenes" className={styles.programs_card_content_link}>Learn More</Link>
                   </div>
                 </div>
               </div>
@@ -46,7 +46,7 @@ export default function ProgramsSlide(){
                 <div className={styles.programs_card_content}>
                   <p className="text-[18px]">Climate Change  Awareness Campaign</p>
                   <div className={styles.programs_card_content_link_cover}>
-                    <Link href="#" className={styles.programs_card_content_link}>Learn More</Link>
+                    <Link href="/projects/climate-change-awarenes" className={styles.programs_card_content_link}>Learn More</Link>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ export default function ProgramsSlide(){
                 <div className={styles.programs_card_content}>
                   <p className="text-[18px]">Climate Change  Awareness Campaign</p>
                   <div className={styles.programs_card_content_link_cover}>
-                    <Link href="#" className={styles.programs_card_content_link}>Learn More</Link>
+                    <Link href="/projects/climate-change-awarenes" className={styles.programs_card_content_link}>Learn More</Link>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function ProgramsSlide(){
                 <div className={styles.programs_card_content}>
                   <p className="text-[18px]">Climate Change  Awareness Campaign</p>
                   <div className={styles.programs_card_content_link_cover}>
-                    <Link href="#" className={styles.programs_card_content_link}>Learn More</Link>
+                    <Link href="/projects/climate-change-awarenes" className={styles.programs_card_content_link}>Learn More</Link>
                   </div>
                 </div>
               </div>

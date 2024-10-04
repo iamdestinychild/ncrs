@@ -4,21 +4,21 @@
             author:"John Doe",
             date:"Apr 15 2024",
             heading:"Collaboration of NITDA WITH NSRDA",
-            slug:"/#"
+            slug:"/projects/climate-change-awarenes"
         },
         {
             img:"/images/img-14.jpg",
             author:"John Doe",
             date:"Apr 15 2024",
             heading:"Collaboration of NITDA WITH NSRDA",
-            slug:"/#"
+            slug:"/projects/climate-change-awarenes"
         },
         {
             img:"/images/img-15.jpg",
             author:"John Doe",
             date:"Apr 15 2024",
             heading:"Collaboration of NITDA WITH NSRDA",
-            slug:"/#"
+            slug:"/projects/climate-change-awarenes"
         }
     ]
 
