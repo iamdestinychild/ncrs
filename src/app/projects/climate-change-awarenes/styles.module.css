@@ -15,7 +15,7 @@
 }
 
 .image_container{
-    @apply relative w-full h-[20vh] xlg-max:h-[50vh] rounded-[15px] xl:text-[40px]
+    @apply relative w-full h-[20vh] xlg-max:h-[50vh] rounded-[15px] xl:h-[50vh]
 }
 
 .image{
