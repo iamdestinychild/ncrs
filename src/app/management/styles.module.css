@@ -76,5 +76,5 @@
 }
 
 .section_two_card_two{
-    @apply grid grid-cols-1 slg:grid-cols-2 xlg:grid-cols-3 mx-auto slg:gap-x-1 gap-y-10 mx-auto
+    @apply grid grid-cols-1 slg:grid-cols-2 xlg:grid-cols-3 mx-auto slg:gap-x-1 gap-y-10
 }

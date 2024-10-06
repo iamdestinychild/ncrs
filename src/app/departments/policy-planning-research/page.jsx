@@ -16,7 +16,7 @@ export default function Department() {
           {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
           <div className={styles.hero_title_page}>
             <div className={styles.title_cover}>
-              <p className={styles.title}>Our divisions and functions</p>
+              <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
             </div>
             <div className={styles.page_cover}>
               <h1 className={styles.page}>Departments</h1>
@@ -26,14 +26,16 @@ export default function Department() {
       </section>
       <section className={styles.section_two}>
         <div className={styles.section_two_inner}>
-          <h1>GROUND RECEIVING STATION</h1>
+        <div className={styles.section_two_content_line}></div>
+          <h1>Policy, Planning And Research (PPR)</h1>
           <div className={styles.content}>
-            
-            <p>
-            The Ground Receiving Station is saddled with the responsibility of tracking various satellites for the purpose of obtaining data for various areas of applications. This department is also charged with the mandate to archive satellite data as well as other scientific data for research; all scientific/technical project findings and publications are equally housed here. Pre-Processing, Processing and value addition processes of raw satellite data are carried out.</p>
+            <article>
+              <p>The Policy, Planning, and Research (PPR) Department is essential to the Centre&apos;s effective functioning, responsible for preparing the annual budget and coordinating the production of the Centre&apos;s annual report. </p>
+              <p>It also oversees monitoring and evaluation of both ongoing and completed projects. Additionally, the PPR Department handles policy development, strategic planning, research analysis, performance management, and reporting, ensuring the Centre’s activities are aligned with its goals and objectives.</p>
+            </article>
             <div className={styles.banner_cover}>
               <Image
-                src="/images/img-21.jpg"
+                src="/images/img-24.jpg"
                 alt="image"
                 className={styles.banner}
                 fill
@@ -51,7 +53,7 @@ export default function Department() {
                 />
               </div>
               <div className={styles.card_details}>
-                <h1>Yehoshua gwongtok nyamdang</h1>
+                <h1>Omolere O. Sesan</h1>
                 <p>Head of department</p>
               </div>
             </div>
@@ -60,19 +62,27 @@ export default function Department() {
               <div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>Satellite Data Management</p>
+                  <p>Library and Documentation</p>
                 </div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>Ground Receiving Station Operations</p>
+                  <p>Budget</p>
                 </div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>System Engineering.</p>
+                  <p>Monitoring and Evaluation</p>
                 </div>
                 <div className={styles.button_text}>
                   <RadioIcon customStyle={styles.icon} />
-                  <p>ICT/Artificial Intelligence</p>
+                  <p>Information</p>
+                </div>
+                <div className={styles.button_text}>
+                  <RadioIcon customStyle={styles.icon} />
+                  <p>Research and Development</p>
+                </div>
+                <div className={styles.button_text}>
+                  <RadioIcon customStyle={styles.icon} />
+                  <p>ICT</p>
                 </div>
               </div>
             </div>

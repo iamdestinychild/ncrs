@@ -3,13 +3,25 @@ import styles from '../../public/styling/card.module.css'
 import ChevronRight from "../../public/icons/ChevronRight"
 import Image from "next/image"
 
-export default function Card({ card }){
-    const [openCard, setOpenCard] = useState(false)
+export default function Card({ card, openCardId, handleCard}){
+    // const [openCard, setOpenCard] = useState(false)
 
-    const handleCard = (id) => {
-        setOpenCard(!openCard)
-        console.log(openCard)
-    }
+    // const handleCard = (id) => {
+    //     setOpenCard(!openCard)
+    //     console.log(openCard)
+  // }
+  
+  // const [openCardId, setOpenCardId] = useState(null);
+
+  // const handleCard = (id) => {
+  //     console.log(id)
+  //       // Toggle the clicked card by comparing the id
+  //       if (openCardId === id) {
+  //           setOpenCardId(null); // Close the card if already open
+  //       } else {
+  //           setOpenCardId(id); // Open the selected card
+  //       }
+  //   };
     return (
         <div className={styles.card}>
               <div className={styles.card_image_cover}>
@@ -26,14 +38,14 @@ export default function Card({ card }){
                   <p>{card.title}</p>
                   <ChevronRight
                     customStyle={`${styles.icon} ${
-                      openCard? "rotate-90" : "rotate-0"
+                      openCardId === card.id? "rotate-90" : "rotate-0"
                     }`}
                   />
                 </div>
               </div>
               <div
                 className={`${styles.card_details} ${
-                  openCard? styles.open : styles.closed
+                  openCardId == Number(card.id)? styles.open:styles.closed
                 }`}
               >
                 <p>{card.details}</p>

@@ -14,7 +14,7 @@ export default function Department(){
                     {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
                     <div className={styles.hero_title_page}>
                         <div className={styles.title_cover}>
-                            <p className={styles.title}>Our divisions and functions</p>
+                            <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
                         </div>
                         <div className={styles.page_cover}>
                             <h1 className={styles.page}>Departments</h1>
@@ -25,7 +25,7 @@ export default function Department(){
             <section className={styles.section_two}>
                 <div className={styles.section_two_inner}>
                 <div className={styles.section_two_content_line}></div>
-                <h1>WATER RESOURCES AND CLIMATE</h1>
+                <h1>Wate Resources And Climent</h1>
                 <div className={styles.content}>
                 
                     <p>The earth is the only planet that appears blue in color, also nicknamed the blue planet because 95%of it is covered by water. The department is so named because the interaction of water and climate has its complexity on the earth. Water sometimes brings destruction and sometimes where needed is scarce. Global warming has also affected weather of different parts of the earth. Research into the phenomenon of both interactions is invaluable to human existence.</p>

@@ -3,7 +3,7 @@
 }
 
 .hero{
-    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] 2xl:h-[90vh] relative
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[80vh] relative
 }
 
 .hero_layer{
@@ -44,7 +44,7 @@
 
 
 .page{
-    @apply text-[23px] slg:text-[64px] font-[700] text-[#FFF]
+    @apply text-[23px] slg:text-[44px] font-[700] text-[#FFF]
 }
 
 .department_section_one{
@@ -86,11 +86,11 @@
 }
 
 .cards{
-    @apply grid grid-cols-1 gap-5 slg:grid-cols-2 my-3
+    @apply grid grid-cols-1 gap-5 slg:grid-cols-2 xlg:grid-cols-3 my-3
 }
 
 .card{
-    @apply inline-block max-w-[400px] flex justify-evenly items-center px-5 py-6 border border-gray-300 drop-shadow-blur rounded-[15px]
+    @apply max-w-[400px] flex justify-evenly items-center px-5 py-6 border border-gray-300 drop-shadow-blur rounded-[15px]
 }
 
 .card > h1{

@@ -8,6 +8,15 @@ import { cards, card } from "../../../data";
 import Card from '../../components/Card'
 
 export default function Management() {
+    const [openCardId, setOpenCardId] = useState(null);
+
+  const handleCard = (id) => {
+    if (openCardId === id) {
+      setOpenCardId(null); // Close if the card is already open
+    } else {
+      setOpenCardId(id); // Open the selected card
+    }
+  };
 
   return (
     <main>
@@ -30,7 +39,7 @@ export default function Management() {
       </section>
       <section className={styles.section_two}>
       <div className={styles.section_two_content_line}></div>
-        <h1>Management TEAM</h1>
+        <h1>Management Team</h1>
         {/* <div className={styles.section_two_card_one}>
                     <div className={styles.card}>
                         <div className={styles.card_image_cover}>
@@ -131,7 +140,11 @@ export default function Management() {
 
         <div className={styles.section_two_card_two}>
           {cards.map((card, index) => (
-              <Card card={card} key={index} />
+              <Card
+                card={card}
+                key={index}
+                openCardId={openCardId}
+                handleCard={handleCard}/>
           ))}
         </div>
       </section>

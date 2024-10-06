@@ -16,7 +16,7 @@ export default function Department() {
           {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
           <div className={styles.hero_title_page}>
             <div className={styles.title_cover}>
-              <p className={styles.title}>Our divisions and functions</p>
+              <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
             </div>
             <div className={styles.page_cover}>
               <h1 className={styles.page}>Departments</h1>
@@ -26,14 +26,18 @@ export default function Department() {
       </section>
       <section className={styles.section_two}>
         <div className={styles.section_two_inner}>
+        <div className={styles.section_two_content_line}></div>
           <h1>GROUND RECEIVING STATION</h1>
           <div className={styles.content}>
-            
-            <p>
-            The Ground Receiving Station is saddled with the responsibility of tracking various satellites for the purpose of obtaining data for various areas of applications. This department is also charged with the mandate to archive satellite data as well as other scientific data for research; all scientific/technical project findings and publications are equally housed here. Pre-Processing, Processing and value addition processes of raw satellite data are carried out.</p>
+            <article>
+
+            <p>The Ground Receiving Station is saddled with the responsibility of tracking various satellites for the purpose of obtaining data for various areas of applications. </p>
+            <p>This department is also charged with the mandate to archive satellite data as well as other scientific data for research; all scientific/technical project findings and publications are equally housed here. </p>
+            <p>Pre-Processing, Processing and value addition processes of raw satellite data are carried out.</p>
+            </article>
             <div className={styles.banner_cover}>
               <Image
-                src="/images/img-21.jpg"
+                src="/images/img-23.jpg"
                 alt="image"
                 className={styles.banner}
                 fill
@@ -51,7 +55,7 @@ export default function Department() {
                 />
               </div>
               <div className={styles.card_details}>
-                <h1>Yehoshua gwongtok nyamdang</h1>
+                <h1>Tallent Abubakar Sadiq</h1>
                 <p>Head of department</p>
               </div>
             </div>

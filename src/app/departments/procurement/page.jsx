@@ -16,7 +16,7 @@ export default function Department() {
           {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
           <div className={styles.hero_title_page}>
             <div className={styles.title_cover}>
-              <p className={styles.title}>Our divisions and functions</p>
+              <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
             </div>
             <div className={styles.page_cover}>
               <h1 className={styles.page}>Departments</h1>
@@ -26,7 +26,8 @@ export default function Department() {
       </section>
       <section className={styles.section_two}>
         <div className={styles.section_two_inner}>
-          <h1>PROCUREMENT</h1>
+        <div className={styles.section_two_content_line}></div>
+          <h1>Procurement</h1>
           <div className={styles.content}>
             
             <p>The Procurement Department of the Centre is responsible for overseeing all processes involved in acquiring goods, services, and works to ensure efficient business operations and value for money. It consists of units focused on procurement records, price intelligence, and procurement planning. Key functions include sourcing suppliers, negotiating terms, managing contracts, fostering supplier relationships, mitigating supply chain risks, ensuring quality, controlling costs, and processing payments. The department&apos;s objectives are to reduce costs, improve quality, strengthen vendor relationships, manage risks, and promote innovation and sustainability.</p>
@@ -50,7 +51,7 @@ export default function Department() {
                 />
               </div>
               <div className={styles.card_details}>
-                <h1>Yehoshua gwongtok nyamdang</h1>
+                <h1>Bitrus Pam Pwajok</h1>
                 <p>Head of department</p>
               </div>
             </div>
