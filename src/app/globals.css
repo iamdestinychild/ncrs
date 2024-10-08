@@ -30,16 +30,9 @@
 
 }
 
-.keylink_slider{
-  @apply bg-secondary
-}
 
-.keylink_slider .slick-next, .keylink_slider .slick-prev {
+.slick-next, .keylink_slider .slick-prev {
   display: none !important;
 }
 
-
-.keylink_slide slick-slide > div{
-  @apply mx-4
-}
 

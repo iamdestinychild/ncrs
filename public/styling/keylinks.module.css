@@ -7,7 +7,7 @@
 }
 
 .keylink_slider {
-  @apply  my-8 w-full bg-secondary
+  @apply  my-8 w-full
 }
 
 .slick-next{
