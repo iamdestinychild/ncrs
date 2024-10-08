@@ -1,25 +1,24 @@
 .sidebar{
-    @apply fixed right-0 z-50 duration-300 ease-in-out 
-    transform transition-all
-    bg-white  h-screen
-    /* w-[70%] xmd:w-[50%] lg:w-[40%] */
+    @apply fixed right-0 z-50 
+    h-screen
+    w-[60%] 
+    slg:w-[40%]
     overflow-hidden
-    w-0
     xlg:hidden
 }
 
 .sidebar_inner{
-    @apply text-left font-jost font-[500] text-[18px] pt-[2rem] text-primary w-[85%] ml-auto
+    @apply  relative pt-8 pl-4 text-primary bg-white  h-full translate-x-full duration-300 ease-in-out 
+    transform transition-all
 }
 
-.sidebar_inner > li{
-    @apply hover:bg-primary hover:text-white lg:text-[22px] min-w-[80px] my-[0.4rem] rounded-[2px] px-[0.3rem] py-[0.3rem]
+.sidebar_inner > li > a{
+    @apply hover:bg-primary font-jost font-[500] text-left text-sm hover:text-white lg:text-[22px] min-w-[80px] my-[0.4rem] rounded-[2px] px-[0.3rem] py-[0.3rem]
 }
+
 
 .slide_sidebar{
     @apply 
-    w-[70%] xmd:w-[50%] lg:w-[40%] 
-    /* translate-x-0 */
-    px-[1rem] py-[1rem]
+    translate-x-0
     duration-300 ease-in-out transform transition-all
 }

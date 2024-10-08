@@ -23,27 +23,27 @@ export default function SideBar() {
   return (
     <div
       ref={sideBarRef}
-      className={`${styles.sidebar} ${
-        sideBarState.sideBar ? styles.slide_sidebar : ``
-      }`}
+      className={styles.sidebar}
     >
-      <ul className={styles.sidebar_inner}>
-        <li>
+      <ul className={`${styles.sidebar_inner} ${
+        sideBarState.sideBar ? styles.slide_sidebar : ``
+      }`}>
+        <li onClick={()=>{sideBarState.slideSideBar(false)}}>
           <Link href="/">Home</Link>
         </li>
         <DropDown text="About NCRS">
           <ul>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="/about" className={styles.sidebar_dropdown_link}>
                 About Us
               </Link>
             </li>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="/background" className={styles.sidebar_dropdown_link}>
                 Our Background
               </Link>
             </li>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link
                 href="/departments"
                 className={styles.sidebar_dropdown_link}
@@ -54,17 +54,17 @@ export default function SideBar() {
             <Link href="/mandate" className={styles.about_dropdown_link}>
               Our Mandate
             </Link>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="management" className={styles.sidebar_dropdown_link}>
                 Managemnet Team
               </Link>
             </li>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="/organogram" className={styles.sidebar_dropdown_link}>
                 Organogram
               </Link>
             </li>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="/laboratories" className={styles.sidebar_dropdown_link}>
                 Laboratories
               </Link>
@@ -73,12 +73,12 @@ export default function SideBar() {
         </DropDown>
         <DropDown text="Services">
           <ul>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="/services" className={styles.sidebar_dropdown_link}>
                 Our Services
               </Link>
             </li>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="downloads" className={styles.sidebar_dropdown_link}>
                 Downloads
               </Link>
@@ -87,24 +87,24 @@ export default function SideBar() {
         </DropDown>
         <DropDown text="Media">
           <ul>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="/news" className={styles.sidebar_dropdown_link}>
                 News
               </Link>
             </li>
-            <li>
+            <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="/gallery" className={styles.sidebar_dropdown_link}>
                 Gallery
               </Link>
             </li>
           </ul>
         </DropDown>
-        <li>
-          <Link href="https://geosmartdigital.netlify.app/" target="blank" className={styles.sidebar_dropdown_link}>
+        <li onClick={()=>{sideBarState.slideSideBar(false)}}>
+          <Link href="https://geosmart.ncrs.gov.ng/" target="blank" className={styles.sidebar_dropdown_link}>
             Consultancy
           </Link>
         </li>
-        <li>
+        <li onClick={()=>{sideBarState.slideSideBar(false)}}>
           <Link href="/contact" className={styles.sidebar_dropdown_link}>
             Contact Us
           </Link>

@@ -1,33 +1,28 @@
 .icons{
-    @apply size-6
+    @apply size-4
 }
 
 .web_dropdown{
-    @apply inline-block relative my-[0.4rem] w-full
+    @apply inline-block relative my-[0.15rem] w-full
 }
 
 .web_dropdown_text{
     @apply flex items-center justify-start gap-x-3
      py-[0.3rem] z-50
      rounded-[2px] hover:bg-primary hover:text-white px-[0.4rem] 
-    /* my-[0.4rem] */
 }
 
 .web_dropdown_text > p{
-    @apply lg:text-[22px]
+    @apply text-sm lg:text-[22px] font-jost font-[500]
 }
 
 .web_dropdown_links{
-    @apply inline-block overflow-hidden h-0 lg:text-[22px]
+    @apply inline-block overflow-hidden h-0
 }
 
-/* .web_dropdown_links > ul{
-    @apply bg-secondry
-} */
 
 .web_dropdown_links a{
-    @apply inline-block px-[10px] 
-    /* my-[0.4rem] */
+    @apply inline-block px-[10px] text-sm font-jost font-[500] py-1
 }
 
 .collapsed{

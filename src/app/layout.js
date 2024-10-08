@@ -7,7 +7,7 @@ import AppContextProvider from "../context/AppContext";
 const jost = localFont({
   src: "../../public/fonts/jost.ttf",
   variable: "--font-jost",
-  weight: "400 300 500",
+  weight: "400 300 500 600",
 });
 const montserrat = localFont({
   src: "../../public/fonts/montserrat.ttf",

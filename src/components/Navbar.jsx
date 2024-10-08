@@ -31,7 +31,7 @@ export default function Navbar() {
           <Link href="/">Home</Link>
           <div className={styles.dropdown}>
             <p className={`${styles.link_arrow} ${styles.web_link}`}>
-              About <span className={styles.about_span}>NCRS</span>{" "}
+              About <span className={styles.about_span}>NCRS</span>
               <ChevronRight customStyle={styles.nav_arrow} />
             </p>
             <div className={styles.about_dropdown}>

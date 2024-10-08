@@ -59,7 +59,7 @@
 }
 
 .section_two_parapgrah{
-    @apply text-[14px] slg:text-[16px] font-[600] leading-normal text-[#666C89]
+    @apply text-[14px] slg:text-[16px] font-[600] leading-normal text-textColor
 }
 
 .section_three{
