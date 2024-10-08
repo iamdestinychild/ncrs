@@ -10,12 +10,13 @@ export default function Footer() {
           <p>consultancy.ncrs.gov.ng</p>
           <h1>Zonal Laboratories</h1>
           <ul>
-            <Link href="/laboratories/corporative-Information-network">COPINE</Link>
-            <Link href='/laboratories/avanced-space-technology-application-laboratory-uyo'>Uyo</Link>
-            <Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-kashere'>Kashere</Link>
-            <Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-kashere'>Kano</Link>
-            <Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki'>Abakiliki</Link>
-            <Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-langtang'>Lantang</Link>
+            <li><Link href="/laboratories/corporative-Information-network">COPINE</Link></li>
+            <li><Link href='/laboratories/avanced-space-technology-application-laboratory-uyo'>Uyo</Link></li>
+            <li><Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-kashere'>Kashere</Link></li>
+            <li><Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-kashere'>Kano</Link></li>
+            <li><Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki'>Abakiliki</Link></li>
+            <li><Link href='/laboratories/zonal-advanced-space-technology-application-laboratory-langtang'>Lantang</Link></li>
+            
           </ul>
         </section>
         <section className={styles.section}>

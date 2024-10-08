@@ -11,6 +11,11 @@
     @apply text-[18px] slg:text-[20px] font-[700]
 }
 
+.footer_inner a{
+    @apply inline-block text-[16px] slg:text-[18px]
+}
+
+
 .footer_inner p{
     @apply text-[16px] slg:text-[18px]
 }

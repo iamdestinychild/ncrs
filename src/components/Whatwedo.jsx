@@ -41,9 +41,9 @@ export default function Whatwedo() {
           </div>
         </div>
         <div className={styles.learn_more_container}>
-        <p className={styles.learnMore} href="/about">
+        <Link className={styles.learnMore} href="/services">
           Learn More
-        </p>
+        </Link>
         </div>
       </div>
     </div>
