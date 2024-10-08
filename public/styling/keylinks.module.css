@@ -7,13 +7,13 @@
 }
 
 .keylink_slider {
-  @apply relative flex my-8 !mx-10
+  @apply relative flex my-8
 }
 
 
 .keylink_slide {
-  @apply bg-white mx-2 inline-block relative rounded-[5px] py-5 px-2 border border-gray-300 shadow-lg
-  cursor-pointer  transition-transform ease-in-out duration-300 hover:scale-[1.1]
+  @apply bg-transparent mx-5 inline-block relative py-5 px-2
+  cursor-pointer
 }
 
 .keylink_slide_inner {

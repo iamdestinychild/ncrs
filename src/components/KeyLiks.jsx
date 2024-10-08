@@ -20,7 +20,7 @@ export default function KeyLink() {
     autoplay: true,
     autoplaySpeed: 4500,
     responsive: [
-    {
+      {
         breakpoint: 1280,
         settings: {
           slidesToShow: 3,
@@ -56,47 +56,52 @@ export default function KeyLink() {
     ],
   };
 
-
   return (
     <div className={styles.keylink}>
       <h1 className={styles.keylink_heading}>KeyLinks</h1>
       <Slider {...settings} className={styles.keylink_slider}>
-        <Link href='/management' className={styles.keylink_slide}>
+        <div href="/management" className={styles.keylink_slide}>
+          <div className="bg-white border rounded-[5px] border-gray-300 shadow-lg">
             <div className={styles.blur}></div>
-          <div className={styles.keylink_slide_inner}>
-            <div className={styles.icon_container}>
-              <Users customStyle={styles.icon} />
-            </div>
-            <div className={styles.keylink_slide_content}>
-              <p>Leadership</p>
-              <h1>Meet our Management</h1>
-            </div>
-          </div>
-        </Link>
-        <Link href='/Downloads' className={styles.keylink_slide}>
-        <div className={styles.blur}></div>
-          <div className={styles.keylink_slide_inner}>
-            <div className={styles.icon_container}>
-              <Download customStyle={styles.icon} />
-            </div>
-            <div className={styles.keylink_slide_content}>
-              <p>Downloads</p>
-              <h1>Downloadable Resources</h1>
+            <div className={styles.keylink_slide_inner}>
+              <div className={styles.icon_container}>
+                <Users customStyle={styles.icon} />
+              </div>
+              <div className={styles.keylink_slide_content}>
+                <p>Leadership</p>
+                <h1>Meet our Management</h1>
+              </div>
             </div>
           </div>
-        </Link>
-        <Link href='/contact' className={styles.keylink_slide}>
-        <div className={styles.blur}></div>
-          <div className={styles.keylink_slide_inner}>
-            <div className={styles.icon_container}>
-              <Contact customStyle={styles.icon} />
-            </div>
-            <div className={styles.keylink_slide_content}>
-              <p>Contact</p>
-              <h1>Get in Touch with us</h1>
+        </div>
+        <div href="/Downloads" className={styles.keylink_slide}>
+          <div className="bg-white border rounded-[5px] border-gray-300 shadow-lg">
+            <div className={styles.blur}></div>
+            <div className={styles.keylink_slide_inner}>
+              <div className={styles.icon_container}>
+                <Download customStyle={styles.icon} />
+              </div>
+              <div className={styles.keylink_slide_content}>
+                <p>Downloads</p>
+                <h1>Downloadable Resources</h1>
+              </div>
             </div>
           </div>
-        </Link>
+        </div>
+        <div href="/contact" className={styles.keylink_slide}>
+          <div className="bg-white border rounded-[5px] border-gray-300 shadow-lg">
+            <div className={styles.blur}></div>
+            <div className={styles.keylink_slide_inner}>
+              <div className={styles.icon_container}>
+                <Contact customStyle={styles.icon} />
+              </div>
+              <div className={styles.keylink_slide_content}>
+                <p>Contact</p>
+                <h1>Get in Touch with us</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </Slider>
     </div>
   );
