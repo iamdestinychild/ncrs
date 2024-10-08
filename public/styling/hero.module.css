@@ -23,15 +23,15 @@
 }
 
 .heading_one{
-    @apply font-montserrat font-[400] text-lg slg:text-[35px] slg:leading-10 xl:text-[45px] xlg-max:text-[35px]
+    @apply font-montserrat font-[400] text-lg slg:text-[35px] leading-normal xl:text-[45px] xlg-max:text-[35px]
 }
 
 .heading_two{
-    @apply font-montserrat font-[600] text-lg slg:leading-10 slg:text-[40px] xl:text-[55px] xlg-max:text-[45px] my-2
+    @apply font-montserrat font-[600] text-lg leading-normal slg:text-[40px] xl:text-[55px] xlg-max:text-[45px] my-2
 }
 
 .paragraph{
-    @apply font-jost font-[400] text-base slg:leading-6 slg:text-[18px] xlg:text-[20px]
+    @apply font-jost font-[400] text-base leading-normal slg:text-[18px] xlg:text-[20px]
 }
 
 .link{
