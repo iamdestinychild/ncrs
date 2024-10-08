@@ -87,7 +87,7 @@ export default function Navbar() {
               </Link>
             </div>
           </div>
-          <Link href="https://geosmartdigital.netlify.app/" target="blank">Consultancy</Link>
+          <Link href="https://geosmart.ncrs.gov.ng/" target="blank">Consultancy</Link>
           <Link href="/contact">Contact Us</Link>
         </div>
         {!sideBarState.sideBar ? (
