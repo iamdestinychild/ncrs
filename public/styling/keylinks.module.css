@@ -10,21 +10,22 @@
   @apply  my-8 w-full
 }
 
-.slick-next{
-  @apply hidden bg-secondary
-}
-
 .keylink_slide {
   @apply bg-transparent mx-5 inline-block relative py-5 px-2
   cursor-pointer
 }
 
+.keylink_slide_container{
+  @apply w-[90%] slg:w-[95%] bg-white border rounded-[3px] border-gray-300 shadow-lg
+}
+
 .keylink_slide_inner {
-  @apply flex justify-between items-center w-full px-3 py-4 slg:py-8;
+  @apply flex justify-between items-center w-full px-4 py-4 slg:py-8
+  
 }
 
 .keylink_slide_content {
-  @apply text-primary text-left
+  @apply text-primary text-left 
 }
 
 .keylink_slide_content > p {
@@ -32,7 +33,7 @@
 }
 
 .keylink_slide_content > h1 {
-  @apply text-[17px] font-[600];
+  @apply text-[17px] font-[600] xl:pr-3
 }
 
 .icon_container {
