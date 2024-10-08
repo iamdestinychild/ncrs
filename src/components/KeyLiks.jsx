@@ -2,7 +2,7 @@
 import Users from "/public/icons/Users";
 import Download from "../../public/icons/Download";
 import Contact from "../../public/icons/Contact";
-// import Slider from "react-slick";
+import "../app/globals.css"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "@ant-design/react-slick";
@@ -13,9 +13,9 @@ export default function KeyLink() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 600,
+    speed: 800,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
     autoplaySpeed: 4500,

@@ -7,9 +7,12 @@
 }
 
 .keylink_slider {
-  @apply relative flex my-8
+  @apply  my-8 w-full bg-secondary
 }
 
+.slick-next{
+  @apply hidden bg-secondary
+}
 
 .keylink_slide {
   @apply bg-transparent mx-5 inline-block relative py-5 px-2
