@@ -1,5 +1,5 @@
 .hero{
-    @apply h-[50vh] md:h-[50vh] slg:h-[50vh] xlg-max:h-[80vh] xl:h-[80vh] max-h-[90vh] w-full bg-secondary
+    @apply h-[50vh] md:h-[50vh] slg:h-[70vh] xlg-max:h-[80vh] xl:h-[80vh] max-h-[90vh] w-full bg-secondary
 }
 
 .hero_inner{
@@ -7,7 +7,7 @@
 }
 
 .hero_slide{
-    @apply !relative h-[50vh] md:h-[50vh] slg:h-[50vh] xlg-max:h-[80vh] xl:h-[80vh] max-h-[90vh] w-full grid place-content-center slg:pl-10
+    @apply !relative h-[50vh] md:h-[50vh] slg:h-[70vh] xlg-max:h-[80vh] xl:h-[80vh] max-h-[90vh] w-full grid place-content-center slg:pl-10
 }
 
 .hero_slide_banner{
@@ -19,23 +19,23 @@
 }
 
 .hero_slide_content{
-    @apply relative text-white py-10 px-4 max-w-[90%] xl:max-w-[70%]
+    @apply relative text-white py-4 px-4 max-w-[90%] xlg:max-w-[70%]
 }
 
 .heading_one{
-    @apply font-montserrat font-[400] text-[20px] slg:text-[35px] xl:text-[45px] xlg-max:text-[35px] my-2
+    @apply font-montserrat font-[400] text-lg slg:text-[35px] slg:leading-10 xl:text-[45px] xlg-max:text-[35px]
 }
 
 .heading_two{
-    @apply font-montserrat font-[700] text-[20px] slg:text-[40px] xl:text-[55px] xlg-max:text-[45px] my-2
+    @apply font-montserrat font-[600] text-lg slg:leading-10 slg:text-[40px] xl:text-[55px] xlg-max:text-[45px] my-2
 }
 
 .paragraph{
-    @apply font-jost font-[400] text-[16px] slg:text-[18px] xlg:text-[20px]  my-2
+    @apply font-jost font-[400] text-base slg:leading-6 slg:text-[18px] xlg:text-[20px]
 }
 
 .link{
-    @apply inline-block bg-primary text-white font-jost font-[400] text-[16px] slg:text-[18px] xlg:text-[20px] rounded-[3px] py-2 px-4 my-3 slg:py-4 slg:px-7 xlg:px-10
+    @apply inline-block bg-primary text-white font-jost font-[400] text-base slg:text-[18px] xlg:text-[20px] rounded-[3px] py-2 px-4 my-3 slg:py-4 slg:px-7 xlg:px-10
 }
 
 .slick-slide > div{
