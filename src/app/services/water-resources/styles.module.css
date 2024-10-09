@@ -72,7 +72,7 @@
 }
 
 .banner_text{
-    @apply flex flex-col gap-y-5  slg:gap-x-5 slg:flex-row mx-auto
+    @apply flex flex-col gap-y-5 slg:gap-x-5 slg:flex-row mx-auto
 }
 
 .banner_text > p{

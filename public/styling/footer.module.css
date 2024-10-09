@@ -12,7 +12,7 @@
 }
 
 .footer_inner a{
-    @apply inline-block text-[16px] slg:text-[18px]
+    @apply hover:bg-secondary
 }
 
 
@@ -22,4 +22,28 @@
 
 .section{
     @apply my-[2rem] slg:my-[3rem]
+}
+
+.section_line_circle_container{
+    @apply px-[1rem] relative pt-5 pb-10 bg-black
+}
+
+.footer_line{
+    @apply h-[1px] w-full bg-white
+}
+
+.footer_circle{
+    @apply -translate-x-[50%] h-12 w-12 bg-black absolute left-[50%] top-0 rounded-full
+}
+
+.section_copyright{
+    @apply bg-white py-2 px-2 text-center
+}
+
+.section_copyright p{
+    @apply text-[14px] slg:text-[16px] font-jost font-[400] text-black
+}
+
+.section_copyright p > span{
+    @apply font-montserrat font-[700]
 }

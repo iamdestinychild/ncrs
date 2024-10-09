@@ -58,6 +58,14 @@ export default function Footer() {
           </ul>
         </section>
       </div>
+      <section className={styles.section_line_circle_container}>
+          <div className={styles.footer_line}></div>
+          <div className={styles.footer_circle}></div>
+      </section>
+      <section className={styles.section_copyright}>
+        <p>© <span>National Centre Remote Sensing</span> 2024.</p>
+        <p>All Rights Reserved. Terms of Use and Privacy Policy</p>
+      </section>
     </div>
   );
 }

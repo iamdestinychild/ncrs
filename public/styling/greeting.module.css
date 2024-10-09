@@ -1,6 +1,6 @@
 .greeting{
-    @apply px-5 w-full my-[4rem] lg:px-12
-     /* xlg:px-10 */
+    @apply px-5 w-full py-12 my-[4rem] lg:px-12
+     xlg:px-10
 }
 
 .greeting_inner{
@@ -8,7 +8,7 @@
 }
 
 .img_cover{
-    @apply relative w-full max-h-[50hv] slg:h-[50vh] xlg:w-[40%]  
+    @apply relative w-full h-[50vh] slg:h-[50vh] xlg:w-[40%]  
     xl:h-[70vh] rounded-t-[25px] xlg:rounded-tl-[25px] xlg:rounded-bl-[25px]
 }
 
