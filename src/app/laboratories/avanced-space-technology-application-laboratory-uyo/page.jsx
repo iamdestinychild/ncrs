@@ -15,7 +15,7 @@ export default function CorporativeInformationNetwork(){
                             <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
                         </div>
                         <div className={styles.page_cover}>
-                            <h1 className={styles.page}>Advanced Space Technology Application Laboratory (ASTAL) Uyo</h1>
+                            <h1 className={styles.page}>Advanced Space Technology Application Laboratory (ASTAL), Uyo</h1>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ export default function CorporativeInformationNetwork(){
             <section className={styles.section_two}>
                 <div className={styles.section_two_container}>
                     <div className={styles.section_two_line}></div>
-                    <h1 className={styles.section_two_heading}>Advanced Space Technology Application Laboratory (ASTAL) Uyo</h1>
+                    <h1 className={styles.section_two_heading}>Advanced Space Technology Application Laboratory (ASTAL), Uyo</h1>
                     <p className={styles.section_two_parapgrah}>It was established in 2012 at the South-South Geo-Political Zone of Nigeria with a specific mandate focusing on the environmental situation of the Niger Delta and its surrounding environs.it is the second Zonal Laboratory to be established by NASRDA and coordinated by NCRS Jos.</p>
                 </div>
             </section>

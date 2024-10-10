@@ -46,7 +46,7 @@ export default function Labs(){
                         <div className={styles.section_two_card_icon_cover}>
                             <ListTag iconStyle={styles.section_two_card_icon}/>
                         </div>
-                        <p>Advanced Space Technology Application Laboratory</p>
+                        <p>Advanced Space Technology Application Laboratory (ASTAL), Uyo</p>
                     </Link>
                     <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-kano" className={styles.section_two_card}>
                         <div className={styles.section_two_card_icon_cover}>

@@ -22,7 +22,7 @@ const roboto_mono = localFont({
 })
 
 export const metadata = {
-  title: "NCRS",
+  title: "NCRS – National Centre for Remote Sensing ",
   description: "National Center For Remote Sensing",
 };
 

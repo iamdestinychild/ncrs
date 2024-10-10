@@ -1,5 +1,5 @@
 .hero{
-    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] 2xl:h-[90vh] relative
+    @apply bg-building bg-no-repeat bg-cover bg-right-bottom h-[50vh] xlg-max:h-[100vh] xl:h-[90vh] 2xl:h-[90vh] relative
 }
 
 .hero_layer{
@@ -39,7 +39,7 @@
 }
 
 .page{
-    @apply text-[23px] slg:text-[34px] xl:text-[50px] font-[700] text-[#FFF]
+    @apply text-[23px] slg:text-[34px] xl:text-[44px] font-[700] text-[#FFF]
 }
 
 .section_two{

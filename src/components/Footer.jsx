@@ -7,7 +7,7 @@ export default function Footer() {
       <div className={styles.footer_inner}>
         <section className={styles.section}>
           <h1>Subsidiaries</h1>
-          <p>consultancy.ncrs.gov.ng</p>
+          <Link href="https://consultancy.ncrs.gov.ng/">Geosmart Digital Solutions</Link>
           <h1>Zonal Laboratories</h1>
           <ul>
             <li><Link href="/laboratories/corporative-Information-network">COPINE</Link></li>
@@ -29,7 +29,7 @@ export default function Footer() {
             {/* <li><Link href='/'>Recent Programs</Link></li> */}
             <li><Link href='/news'>News</Link></li>
             <li> <Link href='/contact'>Contact Us</Link></li>
-            <li><Link href='https://geosmartdigital.netlify.app/'>Consultancy</Link></li>
+            <li><Link href='https://consultancy.ncrs.gov.ng/'>Consultancy</Link></li>
           </ul>
         </section>
         <section className={styles.section}>
@@ -52,8 +52,7 @@ export default function Footer() {
           </p>
 
           <ul>
-            <li>Phone 1: +234 706 291 6261</li>
-            <li>Phone 2: +234 810 459 7908</li>
+            <li>Phone: +234 8088714963</li>
             <li>Email: info@ncrs.gov.ng</li>
           </ul>
         </section>
@@ -63,7 +62,7 @@ export default function Footer() {
           <div className={styles.footer_circle}></div>
       </section>
       <section className={styles.section_copyright}>
-        <p>© <span>National Centre Remote Sensing</span> 2024.</p>
+        <p><span>National Centre Remote Sensing</span></p>
         <p>All Rights Reserved. Terms of Use and Privacy Policy</p>
       </section>
     </div>

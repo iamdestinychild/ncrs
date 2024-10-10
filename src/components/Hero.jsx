@@ -30,7 +30,7 @@ export default function Hero() {
               <div className={styles.dash}></div>
               <h1 className={styles.heading_one}>National Centre for Remote Sensing</h1>
               <h1 className={styles.heading_two}>Nigeria’s Geospatial Centre of Excellence</h1>
-            <p className={styles.paragraph}>Championing geospatial innovation and excellence, we Undertaking pure and applied research and development for national economic growth and development</p>
+            <p className={styles.paragraph}>Championing geospatial innovation and excellence, we undertake pure and applied research and development for national economic growth and development</p>
             <Link  className={styles.link} href="/services">Learn More</Link>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Hero() {
               <div className={styles.dash}></div>
               <h1 className={styles.heading_one}>National Centre for Remote Sensing</h1>
               <h1 className={styles.heading_two}>Transforming Data into Actionable Insights for National Growth.</h1>
-            <p className={styles.paragraph}>Leverage Remote Sensing and GIS to convert vast datasets into actionable insights, driving informed decisions.</p>
+            <p className={styles.paragraph}>Leveraging Remote Sensing and GIS to convert vast datasets into actionable insights, driving informed decisions.</p>
             <Link  className={styles.link} href="/services">Learn More</Link>
           </div>
         </div>
