@@ -7,7 +7,7 @@ import Water from "../../../public/icons/Water";
 import Geoscience from "../../../public/icons/GeoScience";
 import Plan from "../../../public/icons/Plan";
 import Procurement from "../../../public/icons/Procurment";
-import Ict from "../../../public/icons/Ict.jsx";
+import It from "../../../public/icons/It";
 import Station from "../../../public/icons/Station";
 
 export default function Department() {
@@ -61,7 +61,7 @@ export default function Department() {
               <h1>Policy, Planning and Research</h1>
             </Link>
             <Link href="/departments/ict" className={styles.card}>
-              <Ict customStyle={styles.icon} />
+              <It customStyle={styles.icon} />
               <h1>ICT</h1>
             </Link>
             <Link href="/departments/geosciences" className={styles.card}>

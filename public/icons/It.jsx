@@ -1,4 +1,4 @@
-export default function Ict({ customStyle }) {
+export default function It({ customStyle }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
