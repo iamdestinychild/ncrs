@@ -68,6 +68,48 @@ export default function Department() {
               <Geoscience customStyle={styles.icon} />
               <h1>Geosciences</h1>
             </Link>
+            {/*  */}
+            <Link href="#" className={styles.card}>
+              <Water customStyle={styles.icon} />
+              <h1>Environment and disaster management</h1>
+            </Link>
+            <Link href="#" className={styles.card}>
+              <Station customStyle={styles.icon} />
+              <h1>Geoinformatics</h1>
+            </Link>
+            <Link href="#" className={styles.card}>
+              <Procurement customStyle={styles.icon} />
+              <h1>Land resources and urban management</h1>
+            </Link>
+            <Link href="#" className={styles.card}>
+              <Plan customStyle={styles.icon} />
+              <h1>Collaboration and outreach</h1>
+            </Link>
+            <Link href="#" className={styles.card}>
+              <It customStyle={styles.icon} />
+              <h1>Directorate</h1>
+            </Link>
+            <Link href="#" className={styles.card}>
+              <Geoscience customStyle={styles.icon} />
+              <h1>Admin</h1>
+            </Link>
+            {/*  */}
+            <Link href="#" className={styles.card}>
+              <Water customStyle={styles.icon} />
+              <h1>Legal</h1>
+            </Link>
+            <Link href="#" className={styles.card}>
+              <Station customStyle={styles.icon} />
+              <h1>Media and protocol</h1>
+            </Link>
+            <Link href="#" className={styles.card}>
+              <Procurement customStyle={styles.icon} />
+              <h1>Servicom</h1>
+            </Link>
+            <Link href="#" className={styles.card}>
+              <Plan customStyle={styles.icon} />
+              <h1>Clinic</h1>
+            </Link>
           </div>
         </div>
       </section>
