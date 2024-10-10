@@ -1,5 +1,3 @@
-import Policy from './Policy'
+import Policy from "./Plan";
 
-export  {
-    Policy
-}
+export { Policy };
