@@ -5,9 +5,9 @@ import { RightArrow } from '../../components/IconsPalette'
 import WebDepartment from '../../components/webDepartment/webdepartment'
 import Water from '../../../public/icons/Water'
 import Geoscience from '../../../public/icons/GeoScience'
-// import Policy from '../../../public/icons/Policy'
+import Policy from '../../../public/icons/Policy'
 import Procurement from '../../../public/icons/Procurment'
-// import Procurement from '../../../public/icons/Ict'
+import Ict from '../../../public/icons/Ict'
 import Station from '../../../public/icons/Station'
 
 export default function Department(){
@@ -46,11 +46,11 @@ export default function Department(){
                             <h1>Procurement</h1>
                         </Link>
                         <Link href='/departments/policy-planning-research' className={styles.card}>
-                            <Station customStyle={styles.icon} />
+                            <Policy customStyle={styles.icon} />
                             <h1>Policy, Planning and Research</h1>
                         </Link>
                         <Link href='/departments/ict' className={styles.card}>
-                            <Procurement customStyle={styles.icon} />
+                            <Ict customStyle={styles.icon} />
                             <h1>ICT</h1>
                         </Link>
                         <Link href='/departments/geosciences' className={styles.card}>
