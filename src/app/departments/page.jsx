@@ -7,7 +7,7 @@ import Water from "../../../public/icons/Water";
 import Geoscience from "../../../public/icons/GeoScience";
 import Plan from "../../../public/icons/Plan";
 import Procurement from "../../../public/icons/Procurment";
-import Ict from "../../../public/icons/Ict";
+import Ict from "../../../public/icons/Ict.jsx";
 import Station from "../../../public/icons/Station";
 
 export default function Department() {
