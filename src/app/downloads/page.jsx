@@ -25,7 +25,7 @@ export default function Download() {
         <div className={styles.section_two_container}>
           <div className={styles.section_two_container_main}>
             <h1 className={styles.section_two_container_main_heading}>
-              Detailed Annual Report & Brochure
+            Detailed Annual Report & Brochure to Policy Documents and Supplementary Materials
             </h1>
             <p className={styles.section_two_container_main_paragraph}>
               4 Documents Available for Download
@@ -70,6 +70,7 @@ export default function Download() {
                     <Link
                       href="https://res-console.cloudinary.com/idaliaafriaca/media_explorer_thumbnails/87fc0272391e73ab6e07b484340b1fb4/download"
                       download
+                      target="_blank"
                       className={styles.section_two_container_main_table_row}
                     >
                       <p

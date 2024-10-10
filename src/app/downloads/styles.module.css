@@ -55,7 +55,7 @@
 }
 
 .section_two_container_main_heading{
-    @apply text-[28px] slg:text-[40px] px-[0.5rem] font-[500] leading-normal text-center mb-[0.5rem]
+    @apply text-[28px] slg:text-[34px] px-[0.5rem] font-[500] leading-normal text-center mb-[0.5rem]
 }
 
 .section_two_container_main_paragraph{

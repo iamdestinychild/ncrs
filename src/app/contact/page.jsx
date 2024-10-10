@@ -46,7 +46,7 @@ export default function Contact(){
                                         <Phone iconStyle={styles.section_two_detail_icon}/>
                                         <div className={styles.section_two_detail_text}>
                                             <p>Phone</p>
-                                            <p>+2348155212556</p>
+                                            <p>+2348088714963</p>
                                         </div>  
                                     </div>
 
