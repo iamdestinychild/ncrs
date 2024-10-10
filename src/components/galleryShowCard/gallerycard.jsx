@@ -15,7 +15,7 @@ export default function GalleryShowCard({image, index, galleryState}){
 
     const showGallery = ()=>{
         galleryState(false)
-        document.body.style.top = `${window.scrollY}px`
+        // document.body.style.top = `${window.scrollY}px`
         document.body.classList.remove('no-scroll')
     }
 

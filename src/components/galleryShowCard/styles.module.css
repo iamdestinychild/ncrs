@@ -1,5 +1,5 @@
 .gallery_card_cover{
-    @apply fixed top-0 left-0 mx-auto h-full w-full bg-[#00000087] z-50
+    @apply fixed top-0 left-0 mx-auto h-full w-full inset-0 bg-[#00000087] z-50
 }
 
 .gallery_card_container{

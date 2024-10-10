@@ -35,4 +35,7 @@
   display: none !important;
 }
 
+no-scroll{
+  @apply overflow-y-scroll
+}
 
