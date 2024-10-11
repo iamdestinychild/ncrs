@@ -35,7 +35,7 @@ export default function Department() {
             </article>
             <div className={styles.banner_cover}>
               <Image
-                src="/images/img-24.jpg"
+                src="/images/img-25.png"
                 alt="image"
                 className={styles.banner}
                 fill

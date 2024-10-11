@@ -48,7 +48,7 @@ export default function SideBar() {
                 href="/departments"
                 className={styles.sidebar_dropdown_link}
               >
-                Department
+                Departments
               </Link>
             </li>
             <Link href="/mandate" className={styles.about_dropdown_link}>
