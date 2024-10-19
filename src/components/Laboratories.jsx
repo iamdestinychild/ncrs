@@ -14,7 +14,8 @@ export default function Laboratories() {
                 <Link href='/laboratories/' className={styles.card}>
                     <Image src="/images/card-1.jpg" alt="this" className={styles.card_image} fill />
                     <div className={styles.card_shade}></div>
-                    <h1 className={styles.card_text}>Advanced Space Technology Application Laboratory</h1>
+                    <h1 className={styles.card_text}>Advanced Space Technology Application Laboratory (ASTAL), 
+                    Uyo</h1>
                 </Link>
                 <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-kashere" className={styles.card}>
                     <Image src="/images/card-1.jpg" alt="this" className={styles.card_image} fill />

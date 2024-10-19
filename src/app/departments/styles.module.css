@@ -90,7 +90,7 @@
 }
 
 .card{
-    @apply max-w-[400px] flex justify-evenly items-center px-5 py-6 border border-gray-300 drop-shadow-blur rounded-[15px]
+    @apply max-w-[400px] flex justify-start gap-x-16 items-center px-5 py-6 border border-gray-300 drop-shadow-blur rounded-[15px]
 }
 
 .card > h1{

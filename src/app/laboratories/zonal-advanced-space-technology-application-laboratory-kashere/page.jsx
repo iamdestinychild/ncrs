@@ -33,7 +33,7 @@ export default function CorporativeInformationNetwork(){
                     <div className={styles.section_three_cards}>
                         <div className={styles.section_three_card}>
                             <div className={styles.section_three_card_banner_cover}>
-                                <Image src='/img/img-01.jpg' alt='img' className={styles.section_three_card_banner} fill />
+                                <Image src='/images/director-2.png' alt='img' className={styles.section_three_card_banner} fill />
                             </div>
                             <div className={styles.section_three_card_content}>
                                 <h1>Mr Hyelpandawa Yaro</h1>
