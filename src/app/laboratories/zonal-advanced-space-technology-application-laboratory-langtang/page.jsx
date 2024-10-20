@@ -15,7 +15,7 @@ export default function CorporativeInformationNetwork(){
                             <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
                         </div>
                         <div className={styles.page_cover}>
-                            <h1 className={styles.page}>Zonal Advanced Space Technology Application Laboratory Langtang</h1>
+                            <h1 className={styles.page}>Zonal Advanced Space Technology Applications Laboratory  (ZASTAL) Langtang</h1>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ export default function CorporativeInformationNetwork(){
             <section className={styles.section_two}>
                 <div className={styles.section_two_container}>
                     <div className={styles.section_two_line}></div>
-                    <h1 className={styles.section_two_heading}>Zonal Advanced Space Technology Applications Laboratory  (ZASTAL) Langtang</h1>
+                    <h1 className={styles.section_two_heading}>Zonal Advanced Space Technology Applications Laboratory  (ZASTAL) Langtang</h1>
                     <p className={styles.section_two_parapgrah}>It was established on the 27th November, 2018 at the North-Central Geo-Political Zone of Nigeria with a specific mandate focusing on the environmental situation in Plateau State and its environs.it is the sixth Zonal Laboratory to be established by NASRDA and coordinated by NCRS Jos.</p>
                 </div>
             </section>

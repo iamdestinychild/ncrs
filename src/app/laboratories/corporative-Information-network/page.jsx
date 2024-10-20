@@ -15,7 +15,7 @@ export default function CorporativeInformationNetwork(){
                             <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
                         </div>
                         <div className={styles.page_cover}>
-                            <h1 className={styles.page}>Corporative Information Network</h1>
+                            <h1 className={styles.page}>Corporative Information Network (COPINE) South-West Zonal Lab. Ile-Ife</h1>
                         </div>
                     </div>
                 </div>
@@ -36,8 +36,8 @@ export default function CorporativeInformationNetwork(){
                                 <Image src='/images/director-2.png' alt='img' className={styles.section_three_card_banner} fill />
                             </div>
                             <div className={styles.section_three_card_content}>
-                                <h1>Dr Toafik Alaga</h1>
-                                <p>2014 to date</p>
+                                <h1>Dr Alfa I. N. Kure</h1>
+                                <p>June 2010 to April 2011</p>
                             </div>
                             {/* <Link href='#' className={styles.section_three_card_link}>View Profile</Link> */}
                         </div>
