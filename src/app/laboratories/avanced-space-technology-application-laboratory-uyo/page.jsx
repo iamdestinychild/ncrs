@@ -37,7 +37,7 @@ export default function CorporativeInformationNetwork(){
                             </div>
                             <div className={styles.section_three_card_content}>
                                 <h1>Dr Kenneth Uchua</h1>
-                                <p>inception to date</p>
+                                <p>from inception to date</p>
                             </div>
                         </div>
                     </div>
