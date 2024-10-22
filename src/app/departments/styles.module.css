@@ -94,11 +94,11 @@
 }
 
 .card > h1{
-    @apply font-montserrat font-[500] text-[16px] ml-2
+    @apply w-[60%] font-montserrat font-[500] text-[16px] ml-2
 }
 
 .icon{
-    @apply size-12
+    @apply size-12  
 }
 
 .section_two_content_line{
