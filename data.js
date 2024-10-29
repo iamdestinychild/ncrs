@@ -191,5 +191,5 @@ export const card = {
   title: "Director/CE",
   img: "/images/director-2.png",
   details:
-    "Mr Dashan Titus Dalohom obtained a Master Degree in Environment Management in 2010 at Bayero University, Kano. He also Bagged a Postgraduate Diploma in Geographic Information Science at the Federal School of Survey, Oyo in 1999. In the year 1995, he obtained Higher National Diploma in Photogrammetry (Air Survey) at the prestigious Kaduna Polytechnic. He also got the Ordinary National Diploma from the same Polytechnic. He is presently pursuing his PhD in Environmental Management at the Shell Center for Environmental Control and Disaster Management. He is currently the Head of the Geo-information Department",
+    "",
 };
