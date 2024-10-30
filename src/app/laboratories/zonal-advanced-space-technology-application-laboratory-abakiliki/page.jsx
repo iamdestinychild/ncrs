@@ -24,7 +24,7 @@ export default function CorporativeInformationNetwork(){
                 <div className={styles.section_two_container}>
                     <div className={styles.section_two_line}></div>
                     <h1 className={styles.section_two_heading}>Zonal Advanced Space Technology Application Laboratory (ZASTAL) Abakiliki</h1>
-                    <p className={styles.section_two_parapgrah}>It was established within the premise of the Federal University, Kashere, Gombe on the 13th July, 2016 at the North -East Geo-Political Zone of Nigeria with a specific mandate focusing on the environmental situation in Gombe and its environs.it is the fourth zonal laboratory to be established by NASRDA and coordinated by NCRS Jos.</p>
+                    <p className={styles.section_two_parapgrah}>It was established in within the premises of the Federal University, Ndufu Alike, Ebonyi State as the South-East Geo-Political Zone Centre for Remote Sensing with a mandate of focusing on the environmental situation of the zone, It is the fifth zonal laboratory to be established by NASRDA and coordinated by NCRS jos</p>
                 </div>
             </section>
             <section className={styles.section_three}>
