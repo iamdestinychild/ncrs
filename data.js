@@ -189,7 +189,7 @@ export const cards = [
 export const card = {
   name: "David Nyomo Jeb, PhD",
   title: "Director/CE",
-  img: "/images/director-2.png",
+  img: "/images/director_0.png",
   details:
     "",
 };

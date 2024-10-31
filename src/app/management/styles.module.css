@@ -51,7 +51,11 @@
 }
 
 .section_two_card_one{
-    @apply my-[3rem] grid place-content-center w-full
+    @apply my-[3rem] grid place-content-center w-full relative
+}
+
+.section_two_card_one > div{
+    @apply w-1/3
 }
 
 

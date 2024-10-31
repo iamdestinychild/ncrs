@@ -1,6 +1,6 @@
 
 .card{
-    @apply relative transition-all duration-300 ease-in-out rounded-[5px] max-w-[350px] shadow-lg pb-3 overflow-y-hidden
+    @apply min-w-[300px] relative transition-all duration-300 ease-in-out rounded-[5px] max-w-[350px] shadow-lg pb-3 overflow-y-hidden
 }
 
 .card_image_cover{
