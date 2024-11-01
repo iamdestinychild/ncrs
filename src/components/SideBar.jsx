@@ -56,7 +56,7 @@ export default function SideBar() {
             </Link>
             <li onClick={()=>{sideBarState.slideSideBar(false)}}>
               <Link href="management" className={styles.sidebar_dropdown_link}>
-                Managemnet Team
+                Management Team
               </Link>
             </li>
             <li onClick={()=>{sideBarState.slideSideBar(false)}}>
