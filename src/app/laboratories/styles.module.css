@@ -1,0 +1,79 @@
+.hero{
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] 2xl:h-[90vh] relative
+}
+
+.hero_layer{
+    @apply h-full w-full absolute bg-[#0A0A0ABA]
+}
+
+.hero_content{
+    @apply w-full slg:w-[85%] 2xl:w-[60%] absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
+}
+
+.heading_one{
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
+}
+
+.heading_one > span{
+    @apply text-[#E85555]
+}
+
+.heading_two{
+    @apply text-[#FFF9F9] text-[17px] my-[0.5rem] slg:text-[22px] font-[600]
+}
+
+.hero_title_page{
+    @apply w-full
+}
+
+.title_cover{
+    @apply w-full bg-[#FFF] py-[0.5rem] pl-[0.5rem]
+}
+
+.title{
+    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+}
+
+.page_cover{
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+}
+
+.page{
+    @apply text-[23px] slg:text-[64px] font-[700] text-[#FFF]
+}
+
+.section_two{
+    @apply py-[3rem] px-[2rem]
+}
+
+.section_two_line{
+    @apply w-[117px] xl:w-[210px] h-[3px] bg-[#000]
+}
+
+.section_two_heading{
+    @apply text-[36px] xl:text-[46px] font-[700]
+}
+
+.section_two_container{
+    @apply xlg:w-[90%] xlg:mx-auto
+}
+
+.section_two_cards{
+    @apply mt-[2rem] grid grid-cols-1 slg:grid-cols-2 2xl:grid-cols-3 slg:gap-x-10
+}
+
+.section_two_card{
+    @apply h-[150px] xlg:h-[200px] cursor-pointer bg-[#FFFFFF] flex justify-between items-center my-[1rem] py-[24px] px-[23px] rounded-[15px] gap-x-5 shadow-4xl
+}
+
+.section_two_card_icon_cover{
+    @apply w-[30%] 
+}
+
+.section_two_card_icon{
+    @apply size-[3rem] xlg:size-[4rem]
+}
+
+.section_two_card > p{
+    @apply w-[70%] text-[16px] xlg:text-[20px] font-[400] text-[#1C5237] leading-normal
+}

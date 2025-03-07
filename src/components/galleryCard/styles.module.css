@@ -1,0 +1,8 @@
+
+.grid_card{
+    @apply relative cursor-pointer w-full h-[200px] sm:h-[230px] rounded-[15px] mx-auto
+}
+
+.grid_card_img{
+    @apply w-full h-full object-cover rounded-[15px]
+}

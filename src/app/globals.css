@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+}
+
+ @layer base {
+
+
+  :root {
+    @apply p-0 m-0 box-border
+  }
+  
+
+  body {
+    @apply bg-background relative
+  }
+  
+  h1, h2, h3{
+    @apply font-[600] font-montserrat text-[25px]
+  }
+  
+  p, li, a{
+    @apply font-[400] font-jost text-[16px]
+  }
+
+}
+
+
+.slick-next, .keylink_slider .slick-prev {
+  display: none !important;
+}
+
+no-scroll{
+  @apply overflow-y-scroll
+}
+

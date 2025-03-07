@@ -1,0 +1,130 @@
+.hero{
+    @apply bg-contactUsBanner bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[90vh] relative
+}
+
+.hero_layer{
+    @apply h-full w-full absolute bg-[#0a0a0acd]
+}
+
+.hero_content{
+    @apply w-full slg:w-[85%] 2xl:w-[60%] absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
+}
+
+.heading_one{
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
+}
+
+.heading_one > span{
+    @apply text-[#E85555]
+}
+
+.heading_two{
+    @apply text-[#FFF9F9] text-[17px] my-[0.5rem] slg:text-[22px] font-[600]
+}
+
+.hero_title_page{
+    @apply w-full
+}
+
+.title_cover{
+    @apply w-full bg-[#FFF] py-[0.5rem] pl-[0.5rem]
+}
+
+.title{
+    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+}
+
+.page_cover{
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+}
+
+.page{
+    @apply text-[28px] slg:text-[64px] font-[700] text-[#FFF]
+}
+
+.section_two{
+    @apply py-[2rem] xlg:py-[4rem] 2xl:py-[7rem]
+}
+
+.section_two_container{
+    @apply slg:flex justify-between items-start
+}
+
+.section_two_container_form_map{
+    @apply px-[1rem] mb-[2rem] xl:w-[50%] 2xl:w-[60%] xl:px-[5rem] 2xl:px-[12rem]
+}
+
+.section_two_container_line{
+    @apply h-[3px] w-[117px] bg-[#000] mb-[1rem]
+}
+
+.section_two_container_heading{
+    @apply text-[36px] font-[700] text-[#000]
+}
+
+.section_two_container_paragraph{
+    @apply text-[14px] font-[700] text-[#000]
+}
+
+.section_two_form{
+    @apply w-full my-[2rem]
+}
+
+.section_two_form_cover{
+    @apply px-[1rem] py-[1rem]  border-[2px] border-dashed border-[#9747FF] rounded-[10px]
+}
+
+.section_two_form_label{
+    @apply text-[16px] font-[600]
+}
+
+.section_two_form_input{
+    @apply block w-full py-[1.3rem] pl-[1rem] mb-[1rem] border-[1px] border-[#000] focus:outline-none rounded-[15px] h-[1rem]
+}
+
+.message_field{
+    @apply h-[10rem] px-1
+}
+
+.section_two_form_submit{
+    @apply w-full text-center bg-[#191D1F] text-[#FFF] mt-[1rem] py-[0.5rem] 2xl:py-[1rem] rounded-[10px]
+}
+
+.section_two_detail{
+    @apply w-full
+}
+
+.section_two_detail_container{
+    @apply w-full flex justify-between items-center
+}
+
+.section_two_detail_icon_text{
+    @apply flex justify-between items-center gap-2
+}
+
+.section_two_banner_cover{
+    @apply relative w-full xl:w-[50%] 2xl:w-[40%] h-[319px] slg:h-[49rem]
+}
+
+.section_two_banner{
+    @apply w-full h-full object-cover
+}
+
+.icon{
+    @apply size-6
+}
+
+.section_two_detail{
+    @apply w-full md:w-[90%] 2xl:w-[60%] md:mx-auto
+}
+
+.section_two_detail_text{
+    @apply text-[13px]
+}
+
+.section_two_detail_text > p:nth-child(1){
+    @apply font-[600] text-[#000]
+}
+.section_two_detail_text > p:nth-child(2){
+    @apply font-[400] text-[#DD5471]
+}

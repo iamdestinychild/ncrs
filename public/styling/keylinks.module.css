@@ -1,0 +1,45 @@
+.keylink {
+  @apply my-10 xlg:w-[95%] xl:w-[85%] mx-auto w-full relative;
+}
+
+.keylink_heading {
+  @apply font-montserrat text-[700] text-[35px] xlg:text-[40px] text-center;
+}
+
+.keylink_slider {
+  @apply  my-8 w-full
+}
+
+.keylink_slide {
+  @apply bg-transparent mx-5 inline-block relative py-5 px-2
+  cursor-pointer
+}
+
+.keylink_slide_container{
+  @apply w-[90%] slg:w-[95%] bg-white border rounded-[3px] border-gray-300 shadow-lg
+}
+
+.keylink_slide_inner {
+  @apply flex justify-between items-center w-full px-4 py-4 slg:py-8
+  
+}
+
+.keylink_slide_content {
+  @apply text-primary text-left 
+}
+
+.keylink_slide_content > p {
+  @apply font-jost text-[16px] max-w-[90%]
+}
+
+.keylink_slide_content > h1 {
+  @apply text-[17px] font-[600] xl:pr-3
+}
+
+.icon_container {
+  @apply w-[50%];
+}
+
+.icon {
+  @apply size-14 text-primary;
+}

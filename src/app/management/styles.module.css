@@ -1,0 +1,84 @@
+.hero{
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] relative
+}
+
+.hero_layer{
+    @apply h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] w-full absolute bg-[#0A0A0ABA]
+}
+
+.hero_content{
+    @apply w-full slg:w-[85%] 2xl:w-[60%] absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
+}
+
+.heading_one{
+    @apply text-[#FFF] text-[16px] slg:text-[18px] font-[400]
+}
+
+.heading_one > span{
+    @apply text-[#E85555]
+}
+
+.heading_two{
+    @apply text-[#FFF9F9] text-[17px] my-[0.5rem] slg:text-[22px] font-[600]
+}
+
+.hero_title_page{
+    @apply w-full
+}
+
+.title_cover{
+    @apply w-full bg-[#FFF] py-[0.5rem] pl-[0.5rem]
+}
+
+.title{
+    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+}
+
+.page_cover{
+    @apply w-full bg-[#1C5237] py-[0.5rem] pl-[0.5rem]
+}
+
+.page{
+    @apply text-[28px] slg:text-[44px] xlg:text-[55px] font-[700] text-[#FFF]
+}
+
+.section_two{
+    @apply pt-[1rem] xl:pt-[3rem] pb-[3rem] px-[2rem]
+}
+
+.section_two > h1{
+    @apply font-montserrat font-[700] text-[30px] text-left slg:text-[40px]
+}
+
+.section_two_card_one{
+    @apply my-[3rem] grid place-content-center w-full relative
+}
+
+.section_two_card_one > div{
+    @apply w-1/3
+}
+
+
+.section_two_content_line{
+    @apply w-[117px] h-[3px] bg-[#000] mb-5
+}
+
+.text_button{
+    @apply my-3 text-center
+}
+
+.text_button > h1{
+    @apply font-[600] font-montserrat text-[20px]
+}
+
+.text_button > p{
+    @apply font-[400] font-jost text-[16px]
+}
+
+.text_button > button{
+    @apply inline-block font-[500] font-montserrat px-5 py-3 text-[16px] rounded-[5px] drop-shadow-2xl mt-5 text-white bg-primary
+}
+
+.section_two_card_two{
+    @apply grid grid-cols-1 slg:grid-cols-2 xlg:grid-cols-3 mx-auto slg:gap-x-1 gap-y-10
+}
